@@ -117,23 +117,23 @@ const Navbar = () => {
                             <h1 className="text-2xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
                         </div>
                         <h1 className='text-white text-2xl font-poppins ml-7 mt-5'>Unique Digital Ideas for Successful Business</h1>
-                        <p className='text-white/50 font-medium text-lg ml-7 mt-6 '>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
+                        <p className='text-white/50 font-medium text-lg ml-7 mt-6 font-lora'>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
                         <hr className='mt-6 mx-6' />
-                        <h1 className='text-xl font-medium text-white ml-7 mt-6'>Contact Information</h1>
-                        <div className='flex  ml-6 mt-5 gap-4' >
+                        <h1 className='text-xl font-medium text-white ml-7 mt-6 font-poppins'>Contact Information</h1>
+                        <div className='flex  ml-6 mt-5 gap-4 font-lora' >
                             <CiLocationOn className='text-[#c9f31d] text-3xl' />
                             <h1 className="text-white text-lg">West Khulshi R/A,Road No-2,Chattrogram,Bangladesh</h1>
                         </div>
-                        <div className='flex items-center ml-6 mt-5 gap-4' >
+                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora' >
                             <MdOutlineMailOutline className='text-[#c9f31d] text-xl' />
                             <h1 className="text-white text-lg">shaifshajedt@gmail.com</h1>
                         </div>
-                        <div className='flex items-center ml-6 mt-5 gap-4' >
+                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora' >
                             <FaPhoneFlip className='text-[#c9f31d] text-lg' />
                             <h1 className="text-white text-lg">01993566305</h1>
                         </div>
                         <hr className='mt-7 mx-6' />
-                        <h1 className='text-xl font-medium text-white ml-7 mt-7'>Follow Me</h1>
+                        <h1 className='text-xl font-medium text-white ml-7 mt-7 font-poppins'>Follow Me</h1>
                         <div className='flex items-center gap-3 ml-6 mt-7'>
                             <a href='https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL' className='px-3 py-3 rounded-full border bg-[#fff]'>
                                 <FaFacebookF className='text-lg text-black' />
