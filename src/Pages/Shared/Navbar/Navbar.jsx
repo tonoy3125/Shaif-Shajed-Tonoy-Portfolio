@@ -9,7 +9,11 @@ import './Navbar.css'
 const Navbar = () => {
 
     const [isHovered, setIsHovered] = useState(false);
+    const [showSidebar, setShowSidebar] = useState(false)
 
+    const toggleSidebar = () => {
+        setShowSidebar(!showSidebar);
+    };
 
     return (
         <div className="">
@@ -77,6 +81,7 @@ const Navbar = () => {
                         className={`border px-4 py-4 rounded-full bg-[#c9f31d] icon-transition`}
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
+                        onClick={toggleSidebar}
                     >
                         {isHovered ? (
                             <IoMdMenu className='text-2xl transition-all duration-3000' />
@@ -86,6 +91,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };
