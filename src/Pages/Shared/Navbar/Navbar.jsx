@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="">
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -72,7 +72,18 @@ const Navbar = () => {
                 {/* User login and logout toggle */}
 
                 <div className="navbar-end flex items-center gap-5 font-poppins">
-                    
+                    <h1 className='text-[#fff] text-base font-medium'>LET'S TALK</h1>
+                    <div
+                        className={`border px-4 py-4 rounded-full bg-[#c9f31d] icon-transition`}
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                    >
+                        {isHovered ? (
+                            <IoMdMenu className='text-2xl transition-all duration-3000' />
+                        ) : (
+                            <RiMenu2Fill className='text-2xl transition-all duration-3000' />
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

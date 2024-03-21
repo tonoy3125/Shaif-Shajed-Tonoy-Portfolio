@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 const Root = () => {
     return (
-        <div>
+        <div className="container mx-auto lg:max-w-full lg:px-20">
             <Outlet />
         </div>
     );
