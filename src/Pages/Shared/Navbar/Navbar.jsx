@@ -135,18 +135,18 @@ const Navbar = () => {
                         <hr className='mt-7 mx-6' />
                         <h1 className='text-xl font-medium text-white ml-7 mt-7'>Follow Me</h1>
                         <div className='flex items-center gap-3 ml-6 mt-7'>
-                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            <a href='https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL' className='px-3 py-3 rounded-full border bg-[#fff]'>
                                 <FaFacebookF className='text-lg text-black' />
-                            </div>
-                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            </a>
+                            <a href='https://twitter.com/ShaifTonoy84292' className='px-3 py-3 rounded-full border bg-[#fff]'>
                                 <FaTwitter className='text-lg text-black' />
-                            </div>
-                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            </a>
+                            <a href='https://www.linkedin.com/in/shaif-shajed-tonoy-17356121a/' className='px-3 py-3 rounded-full border bg-[#fff]'>
                                 <FaLinkedinIn className='text-lg text-black' />
-                            </div>
-                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            </a>
+                            <a href='https://www.instagram.com/shaifshajed?igsh=MWxnYjN4ZHB2bWZ1ag==' className='px-3 py-3 rounded-full border bg-[#fff]'>
                                 <FaInstagram className='text-lg text-black' />
-                            </div>
+                            </a>
                         </div>
                     </div>
 
