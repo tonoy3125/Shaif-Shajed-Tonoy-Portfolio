@@ -2,6 +2,13 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { RiMenu2Fill } from "react-icons/ri";
 import { IoMdMenu } from "react-icons/io";
 import { MdOutlineCancel } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
+import { FaPhoneFlip } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
@@ -100,7 +107,7 @@ const Navbar = () => {
                     </button>
                     {/* Sidebar links */}
                     <div className='mt-10'>
-                        <div className="flex lg:gap-2 items-center font-cinzel">
+                        <div className="flex  items-center font-cinzel">
                             <Player className="w-24"
                                 autoplay
                                 loop
@@ -110,10 +117,36 @@ const Navbar = () => {
                             <h1 className="text-2xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
                         </div>
                         <h1 className='text-white text-2xl font-poppins ml-7 mt-5'>Unique Digital Ideas for Successful Business</h1>
-                        <p className='text-white/50 font-medium text-lg ml-7 mt-5 '>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
+                        <p className='text-white/50 font-medium text-lg ml-7 mt-6 '>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
+                        <hr className='mt-6 mx-6' />
                         <h1 className='text-xl font-medium text-white ml-7 mt-6'>Contact Information</h1>
-                        <div>
-                            
+                        <div className='flex  ml-6 mt-5 gap-4' >
+                            <CiLocationOn className='text-[#c9f31d] text-3xl' />
+                            <h1 className="text-white text-lg">West Khulshi R/A,Road No-2,Chattrogram,Bangladesh</h1>
+                        </div>
+                        <div className='flex items-center ml-6 mt-5 gap-4' >
+                            <MdOutlineMailOutline className='text-[#c9f31d] text-xl' />
+                            <h1 className="text-white text-lg">shaifshajedt@gmail.com</h1>
+                        </div>
+                        <div className='flex items-center ml-6 mt-5 gap-4' >
+                            <FaPhoneFlip className='text-[#c9f31d] text-lg' />
+                            <h1 className="text-white text-lg">01993566305</h1>
+                        </div>
+                        <hr className='mt-7 mx-6' />
+                        <h1 className='text-xl font-medium text-white ml-7 mt-7'>Follow Me</h1>
+                        <div className='flex items-center gap-3 ml-6 mt-7'>
+                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                                <FaFacebookF className='text-lg text-black' />
+                            </div>
+                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                                <FaTwitter className='text-lg text-black' />
+                            </div>
+                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                                <FaLinkedinIn className='text-lg text-black' />
+                            </div>
+                            <div className='px-3 py-3 rounded-full border bg-[#fff]'>
+                                <FaInstagram className='text-lg text-black' />
+                            </div>
                         </div>
                     </div>
 
