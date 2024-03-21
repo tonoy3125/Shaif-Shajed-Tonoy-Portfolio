@@ -99,7 +99,24 @@ const Navbar = () => {
                         <MdOutlineCancel className='text-white text-2xl' />
                     </button>
                     {/* Sidebar links */}
-                    
+                    <div className='mt-10'>
+                        <div className="flex lg:gap-2 items-center font-cinzel">
+                            <Player className="w-24"
+                                autoplay
+                                loop
+                                src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
+                            >
+                            </Player>
+                            <h1 className="text-2xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                        </div>
+                        <h1 className='text-white text-2xl font-poppins ml-7 mt-5'>Unique Digital Ideas for Successful Business</h1>
+                        <p className='text-white/50 font-medium text-lg ml-7 mt-5 '>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
+                        <h1 className='text-xl font-medium text-white ml-7 mt-6'>Contact Information</h1>
+                        <div>
+                            
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className={`backdrop ${showSidebar ? 'active' : ''}`} onClick={toggleSidebar}></div>
