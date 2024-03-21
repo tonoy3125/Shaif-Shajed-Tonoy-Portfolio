@@ -1,6 +1,7 @@
 import { AiOutlineMenu } from 'react-icons/ai';
 import { RiMenu2Fill } from "react-icons/ri";
 import { IoMdMenu } from "react-icons/io";
+import { MdOutlineCancel } from "react-icons/md";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
@@ -92,21 +93,13 @@ const Navbar = () => {
                 </div>
             </div>
             <div className={`sidebar ${showSidebar ? 'active' : ''}`}>
-                <div className="sidebar-content">
+                <div className="sidebar-content ">
                     {/* Close button */}
-                    <button className="close-btn" onClick={toggleSidebar}>
-                        &#10005;
+                    <button className="close-btn left-btn" onClick={toggleSidebar}>
+                        <MdOutlineCancel className='text-white text-2xl' />
                     </button>
                     {/* Sidebar links */}
-                    <ul className="sidebar-links">
-                        <li>
-                            <NavLink to="/">Link 1</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/">Link 2</NavLink>
-                        </li>
-                        {/* Add more links as needed */}
-                    </ul>
+                    
                 </div>
             </div>
             <div className={`backdrop ${showSidebar ? 'active' : ''}`} onClick={toggleSidebar}></div>

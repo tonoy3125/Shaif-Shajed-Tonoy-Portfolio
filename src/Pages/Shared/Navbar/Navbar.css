@@ -35,8 +35,8 @@
 .sidebar {
     position: fixed;
     top: 0;
-    right: -300px; /* Initially hidden */
-    width: 300px; /* Adjust width as needed */
+    right: -400px; /* Initially hidden */
+    width: 400px; /* Adjust width as needed */
     height: 100%;
     background-color: #231427; /* Adjust background color as needed */
     z-index: 1000; /* Ensure sidebar is above other content */
@@ -49,6 +49,14 @@
 
 .sidebar-content {
     padding: 20px;
+}
+
+.left-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* font-size: 20px; */
+    cursor: pointer;
 }
 
 .close-btn {
