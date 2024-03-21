@@ -91,7 +91,25 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            
+            <div className={`sidebar ${showSidebar ? 'active' : ''}`}>
+                <div className="sidebar-content">
+                    {/* Close button */}
+                    <button className="close-btn" onClick={toggleSidebar}>
+                        &#10005;
+                    </button>
+                    {/* Sidebar links */}
+                    <ul className="sidebar-links">
+                        <li>
+                            <NavLink to="/">Link 1</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/">Link 2</NavLink>
+                        </li>
+                        {/* Add more links as needed */}
+                    </ul>
+                </div>
+            </div>
+            <div className={`backdrop ${showSidebar ? 'active' : ''}`} onClick={toggleSidebar}></div>
         </div>
     );
 };
