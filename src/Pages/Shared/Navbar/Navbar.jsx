@@ -32,28 +32,7 @@ const Navbar = () => {
         <div className="">
             <div className="navbar">
                 <div className="navbar-start">
-                    {/* <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <AiOutlineMenu className="text-2xl font-bold"></AiOutlineMenu>
-                        </label>
-                        <ul tabIndex={0} className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li className="text-black text-lg hover:text-[#46d993] font-bold"><NavLink className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
-                            } to="/">Home</NavLink></li>
-                            <li className="text-black text-lg hover:text-[#46d993] font-bold"><NavLink className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
-                            } to="/offer">Projects</NavLink></li>
-                            <li className="text-black text-lg hover:text-[#46d993] font-bold"><NavLink className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
-                            } to="/blog">Blog</NavLink></li>
-                            <li className="text-black text-lg hover:text-[#46d993] font-bold"><NavLink className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
-                            } to="/contact">Contact</NavLink></li>
-                            <li className="text-black text-lg hover:text-[#46d993] font-bold"><NavLink className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
-                            } to="/about">About</NavLink></li>
-                        </ul>
-                    </div> */}
+                    {/* Responsive left Side logo & heading */}
                     <div className='flex items-center xs:gap-7 sm:gap-10 md:gap-96'>
                         <div className="flex lg:gap-2 items-center font-cinzel">
                             <Player className="xs:w-16 semi-sm:w-24"
@@ -68,6 +47,7 @@ const Navbar = () => {
                             <AiOutlineMenu className=" text-2xl semi-sm:text-3xl font-bold text-white"></AiOutlineMenu>
                         </div>
                     </div>
+                    {/* Left side sidebar content */}
                     <div className={`sidebarleft ${showSidebarMobileDevice ? 'active' : ''} lg:hidden`}>
                         <div className="sidebar-content-two ">
                             {/* Close button */}
@@ -109,11 +89,11 @@ const Navbar = () => {
                                     <hr />
                                 </ul>
                             </div>
-
                         </div>
                     </div>
 
                 </div>
+                {/* Navbar li for large device */}
                 <div className="navbar-center hidden lg:flex font-poppins">
                     <ul className=" flex gap-10">
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
@@ -135,9 +115,8 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                {/* User login and logout toggle */}
-
-                <div className="navbar-end flex items-center gap-5 font-poppins ">
+                {/* Navbar end for large device and right side content  */}
+                <div className="navbar-end flex items-center gap-5 font-poppins">
                     <h1 className='text-[#fff] text-base font-medium hidden lg:block'>LET'S TALK</h1>
                     <div
                         className={`border px-4 py-4 rounded-full bg-[#c9f31d] icon-transition hidden lg:block`}
@@ -153,8 +132,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            {/* Sidebar Content */}
             <div className={`sidebar ${showSidebar ? 'active' : ''} hidden md:block`}>
-                <div className="sidebar-content ">
+                <div className="sidebar-content">
                     {/* Close button */}
                     <button className="close-btn left-btn" onClick={toggleSidebar}>
                         <MdOutlineCancel className='text-white text-2xl' />
