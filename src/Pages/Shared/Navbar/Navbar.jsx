@@ -63,7 +63,7 @@ const Navbar = () => {
                                         src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
                                     >
                                     </Player>
-                                    <h1 className="text-lg font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                                    <h1 className="text-lg md:text-xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
                                 </div>
                                 <ul className="xs:px-3 sm:px-5 semi-sm::px-6 mt-5">
                                     <hr />
@@ -154,31 +154,31 @@ const Navbar = () => {
                         <p className='text-white/50 font-medium text-lg ml-7 mt-6 font-lora'>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque.</p>
                         <hr className='mt-6 mx-6' />
                         <h1 className='text-xl font-medium text-white ml-7 mt-6 font-poppins'>Contact Information</h1>
-                        <div className='flex  ml-6 mt-5 gap-4 font-lora' >
+                        <div className='flex  ml-6 mt-5 gap-4 font-lora cursor-pointer' >
                             <CiLocationOn className='text-[#c9f31d] text-3xl' />
-                            <h1 className="text-white text-lg">West Khulshi R/A,Road No-2,Chattrogram,Bangladesh</h1>
+                            <h1 className="text-white text-lg hover:text-[#c9f31d]">West Khulshi R/A,Road No-2,Chattrogram,Bangladesh</h1>
                         </div>
-                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora' >
+                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora cursor-pointer' >
                             <MdOutlineMailOutline className='text-[#c9f31d] text-xl' />
-                            <h1 className="text-white text-lg">shaifshajedt@gmail.com</h1>
+                            <h1 className="text-white text-lg hover:text-[#c9f31d]">shaifshajedt@gmail.com</h1>
                         </div>
-                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora' >
+                        <div className='flex items-center ml-6 mt-5 gap-4 font-lora cursor-pointer' >
                             <FaPhoneFlip className='text-[#c9f31d] text-lg' />
-                            <h1 className="text-white text-lg">01993566305</h1>
+                            <h1 className="text-white text-lg hover:text-[#c9f31d]">01993566305</h1>
                         </div>
                         <hr className='mt-7 mx-6' />
                         <h1 className='text-xl font-medium text-white ml-7 mt-7 font-poppins'>Follow Me</h1>
                         <div className='flex items-center gap-3 ml-6 mt-7'>
-                            <a href='https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL' className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            <a href='https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL' className='px-3 py-3 hover:bg-[#c9f31d] rounded-full border bg-[#fff]'>
                                 <FaFacebookF className='text-lg text-black' />
                             </a>
-                            <a href='https://twitter.com/ShaifTonoy84292' className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            <a href='https://twitter.com/ShaifTonoy84292' className='px-3 py-3 rounded-full border bg-[#fff] hover:bg-[#c9f31d]'>
                                 <FaTwitter className='text-lg text-black' />
                             </a>
-                            <a href='https://www.linkedin.com/in/shaif-shajed-tonoy-17356121a/' className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            <a href='https://www.linkedin.com/in/shaif-shajed-tonoy-17356121a/' className='px-3 py-3 rounded-full border bg-[#fff] hover:bg-[#c9f31d]'>
                                 <FaLinkedinIn className='text-lg text-black' />
                             </a>
-                            <a href='https://www.instagram.com/shaifshajed?igsh=MWxnYjN4ZHB2bWZ1ag==' className='px-3 py-3 rounded-full border bg-[#fff]'>
+                            <a href='https://www.instagram.com/shaifshajed?igsh=MWxnYjN4ZHB2bWZ1ag==' className='px-3 py-3 rounded-full border bg-[#fff] hover:bg-[#c9f31d]'>
                                 <FaInstagram className='text-lg text-black' />
                             </a>
                         </div>
