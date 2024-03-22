@@ -75,17 +75,17 @@ const Navbar = () => {
                                 <MdOutlineCancel className='text-white text-2xl' />
                             </button>
                             {/* Sidebar links */}
-                            <div className='mt-5'>
+                            <div className='mt-6'>
                                 <div className="flex  items-center font-cinzel">
-                                    <Player className="w-20"
+                                    <Player className="sm:w-14"
                                         autoplay
                                         loop
                                         src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
                                     >
                                     </Player>
-                                    <h1 className="text-2xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                                    <h1 className="text-lg font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
                                 </div>
-                                <ul className="px-6 mt-5">
+                                <ul className="px-5 semi-sm::px-6 mt-5">
                                     <hr />
                                     <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""

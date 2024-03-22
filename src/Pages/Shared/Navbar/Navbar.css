@@ -130,3 +130,17 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 375px) {
+    .sidebarleft {
+        width: 325px; /* Adjust width for smaller screens */
+        left: -325px; /* Adjust left position */
+    }
+    .sidebarleft.active {
+        left: 0;
+    }
+}
+
