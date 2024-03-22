@@ -101,7 +101,7 @@
     top: 0;
     left: -400px;
     /* Adjusted to start from the left */
-    width: 400px;
+    width: 380px;
     height: 100%;
     background-color: #231427;
     z-index: 1000;
@@ -144,3 +144,13 @@
     }
 }
 
+/* Media query for smaller screens */
+@media only screen and (max-width: 320px) {
+    .sidebarleft {
+        width: 280px; /* Adjust width for smaller screens */
+        left: -280px; /* Adjust left position */
+    }
+    .sidebarleft.active {
+        left: 0;
+    }
+}
