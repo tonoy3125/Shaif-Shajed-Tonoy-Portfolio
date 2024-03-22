@@ -18,16 +18,21 @@ const Navbar = () => {
 
     const [isHovered, setIsHovered] = useState(false);
     const [showSidebar, setShowSidebar] = useState(false)
+    const [showSidebarMobileDevice, setShowSideBarMobileDevice] = useState(false)
 
     const toggleSidebar = () => {
         setShowSidebar(!showSidebar);
+    };
+
+    const toggleSidebarMobileDevice = () => {
+        setShowSideBarMobileDevice(!showSidebarMobileDevice);
     };
 
     return (
         <div className="">
             <div className="navbar">
                 <div className="navbar-start">
-                    <div className="dropdown">
+                    {/* <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <AiOutlineMenu className="text-2xl font-bold"></AiOutlineMenu>
                         </label>
@@ -48,15 +53,64 @@ const Navbar = () => {
                                 isPending ? "pending" : isActive ? "font-bold text-black underline" : ""
                             } to="/about">About</NavLink></li>
                         </ul>
+                    </div> */}
+                    <div className='flex items-center xs:gap-7 sm:gap-10 md:gap-96'>
+                        <div className="flex lg:gap-2 items-center font-cinzel">
+                            <Player className="xs:w-16 semi-sm:w-24"
+                                autoplay
+                                loop
+                                src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
+                            >
+                            </Player>
+                            <h1 className="sm:text-lg semi-sm:text-xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                        </div>
+                        <div className='lg:hidden border xs:px-2 xs:py-2 sm:px-3 sm:py-2 rounded-md' onClick={toggleSidebarMobileDevice}>
+                            <AiOutlineMenu className=" text-2xl semi-sm:text-3xl font-bold text-white"></AiOutlineMenu>
+                        </div>
                     </div>
-                    <div className="flex lg:gap-2 items-center font-cinzel">
-                        <Player className="w-24"
-                            autoplay
-                            loop
-                            src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
-                        >
-                        </Player>
-                        <h1 className="text-xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                    <div className={`sidebarleft ${showSidebarMobileDevice ? 'active' : ''} lg:hidden`}>
+                        <div className="sidebar-content-two ">
+                            {/* Close button */}
+                            <button className="close-btn-left " onClick={toggleSidebarMobileDevice}>
+                                <MdOutlineCancel className='text-white text-2xl' />
+                            </button>
+                            {/* Sidebar links */}
+                            <div className='mt-5'>
+                                <div className="flex  items-center font-cinzel">
+                                    <Player className="w-20"
+                                        autoplay
+                                        loop
+                                        src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
+                                    >
+                                    </Player>
+                                    <h1 className="text-2xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                                </div>
+                                <ul className="px-6 mt-5">
+                                    <hr />
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
+                                    } to="/">Home</NavLink></li>
+                                    <hr />
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
+                                    } to="/offer">Projects</NavLink></li>
+                                    <hr />
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
+                                    } to="/blog">Blog</NavLink></li>
+                                    <hr />
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
+                                    } to="/contact">Contact</NavLink></li>
+                                    <hr />
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
+                                    } to="/about">About</NavLink></li>
+                                    <hr />
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -84,9 +138,9 @@ const Navbar = () => {
                 {/* User login and logout toggle */}
 
                 <div className="navbar-end flex items-center gap-5 font-poppins ">
-                    <h1 className='text-[#fff] text-base font-medium hidden md:block'>LET'S TALK</h1>
+                    <h1 className='text-[#fff] text-base font-medium hidden lg:block'>LET'S TALK</h1>
                     <div
-                        className={`border px-4 py-4 rounded-full bg-[#c9f31d] icon-transition hidden md:block`}
+                        className={`border px-4 py-4 rounded-full bg-[#c9f31d] icon-transition hidden lg:block`}
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                         onClick={toggleSidebar}
