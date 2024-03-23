@@ -1,8 +1,9 @@
+import CountUp from 'react-countup';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Banner = () => {
     return (
-        <div className="flex items-center px-5 justify-center">
+        <div className="flex items-center px-5 justify-center mt-10 mb-10">
             <div className="">
                 <h1 className="text-[#FFFFFF59] text-5xl font-bold mb-5">Hello, i’m</h1>
                 <h1 className="text-[#c9f31d] font-bold text-5xl mb-4">Shaif Shajed Tonoy</h1>
@@ -17,19 +18,20 @@ const Banner = () => {
             <div className="">
                 <img className="w-3/4" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
             </div>
-            <div className=" p-10 w-72 bg-[#070707] rounded-lg">
+            <div className=" p-10 w-72 bg-[#070707] rounded-xl">
                 <div>
-                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2">13+</h3>
+                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={13} duration={2} />+</h3>
+
                     <p className="text-[#b1b1b1] text-base font-poppins font-normal">Years Of Experience</p>
                 </div>
                 <hr className="mt-5 mb-5" />
                 <div>
-                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2">8K+</h3>
+                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={8} duration={4} />K+</h3>
                     <p className="text-[#b1b1b1] text-base font-poppins font-normal">Project Complete</p>
                 </div>
                 <hr className="mt-5 mb-5" />
                 <div>
-                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2">99%</h3>
+                    <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={99} duration={3} />%</h3>
                     <p className="text-[#b1b1b1] text-base font-poppins font-normal">Client Satisfactions</p>
                 </div>
             </div>
