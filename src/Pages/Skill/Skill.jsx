@@ -14,7 +14,48 @@ const Skill = () => {
                             <button className="skill-button">80%</button>
                         </div>
                     </div>
-                    
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/YLFkjzS/icons8-css-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">CSS</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/9bm0dT6/icons8-tailwind-css-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Tailwind CSS</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/ypjhk9N/icons8-javascript-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Javascript</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/ygG9LXX/favicon-192.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Daisy Ui</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/nwL20f0/icons8-bootstrap-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Bootstrap</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/JrMq5q3/icons8-react-js-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">React</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
