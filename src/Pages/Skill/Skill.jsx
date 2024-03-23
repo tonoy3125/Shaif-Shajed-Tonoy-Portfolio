@@ -56,6 +56,56 @@ const Skill = () => {
                             <button className="skill-button">80%</button>
                         </div>
                     </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/8j5NP5w/free-icon-1.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Next js</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/WDhH0Nk/icons8-google-firebase-console-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Firebase</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/XsWfb9P/icons8-chakra-ui-480.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Chakra Ui</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/wccv61w/icons8-sass-512.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Sass</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/n6GTGdw/1685814539stripe-icon-png.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Stripe</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/XZF9TBm/19384040.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">SSLCOMMERZ</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/5Y7KNb2/icons8-redux-an-open-source-javascript-library-for-managing-application-state-96.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Redux</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
