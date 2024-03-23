@@ -78,6 +78,13 @@ const Skill = () => {
                         </div>
                     </div>
                     <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/RN10TcT/pngwing-com-1.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Material Ui</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
                         <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/wccv61w/icons8-sass-512.png" alt="" />
                         <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Sass</h5>
                         <div className="text-center mb-5">
@@ -105,7 +112,48 @@ const Skill = () => {
                             <button className="skill-button">80%</button>
                         </div>
                     </div>
-                    
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/pJ7MkKC/7824520991553750363-128.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Node Js</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/DzQx8zy/icons8-express-js-512.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Express Js</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/yXcSFnH/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">MongoDB</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/Bqk8PqN/mongoose-1-logo-png-transparent.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Mongoose</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/tY9SQWv/icons8-figma-240.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Figma</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
+                    <div className=" skill-card">
+                        <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/x8C7WY2/3842828341530103314-128.png" alt="" />
+                        <h5 className="text-lg text-white text-center font-medium mt-3 mb-5">Github</h5>
+                        <div className="text-center mb-5">
+                            <button className="skill-button">80%</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
