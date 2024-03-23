@@ -1,0 +1,28 @@
+.skill-card {
+    background-color: #292828;
+    border: 1px solid #353535;
+    border-radius: 14px;
+    transition: border-color 0.3s;
+    position: relative;
+}
+
+.skill-card:hover {
+    border-color: #c9f31d;
+}
+
+.skill-button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #131313;
+    color: #656565;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 10px;
+    transition: color 0.3s;
+}
+
+.skill-card:hover .skill-button {
+    background-color: #c9f31d;
+    color: #131313;
+}
