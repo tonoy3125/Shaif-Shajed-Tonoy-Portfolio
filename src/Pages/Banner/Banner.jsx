@@ -1,4 +1,4 @@
-
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Banner = () => {
     return (
@@ -7,7 +7,12 @@ const Banner = () => {
                 <h1 className="text-[#FFFFFF59] text-5xl font-bold mb-5">Hello, i’m</h1>
                 <h1 className="text-[#c9f31d] font-bold text-5xl mb-4">Shaif Shajed Tonoy</h1>
                 <h1 className="text-[#fff] text-3xl font-bold mb-4">Junior MERN-Stack-Developer</h1>
-                <p className="text-white w-[500px]">✨ Young Trailblazer in Full Stack Development 💻 | Mastering the art of code from UI/UX magic to server-side wizardry. Fluent in HTML, CSS, JavaScript, React,Firebase, Node.js, MongoDB. Committed to turning ideas into reality and making a mark in the digital realm. Let's build brilliance together! 🌐🚀</p>
+                <p className="text-white w-[500px] mb-10">✨ Young Trailblazer in Full Stack Development 💻 | Mastering the art of code from UI/UX magic to server-side wizardry. Fluent in HTML, CSS, JavaScript, React,Firebase, Node.js, MongoDB. Committed to turning ideas into reality and making a mark in the digital realm. Let's build brilliance together! 🌐🚀</p>
+                <div className="flex items-center gap-3">
+                    <button className="px-7 py-3 bg-[#c9f31d] flex items-center text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg"><span className="text-base">Hire Me</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
+                    <button className="px-7 py-3  flex items-center text-white font-medium gap-1 rounded-lg"><span className="text-base">Download Resume
+                    </span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
+                </div>
             </div>
             <div className="">
                 <img className="w-3/4" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
