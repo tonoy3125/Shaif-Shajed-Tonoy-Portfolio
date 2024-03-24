@@ -13,26 +13,26 @@ const Contact = () => {
                     <div className="flex items-center  flex-col md:flex-row gap-5 lg:gap-10 mb-5 md:mb-14" >
                         <div className="">
                             <h2 className=" text-base md:text-lg font-semibold text-white mb-2 lg:mb-4 font-poppins">Full Name <span className="text-[#c9f31d]">*</span></h2>
-                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px]  semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none" type="text" name="propertyname" placeholder="Enter Property Name Here" id="" />
+                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px]  semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none placeholder-[#FFFFFF33]" type="text" name="propertyname" placeholder="Shaif Shajed Tonoy" id="" />
                         </div>
                         <div className="">
                             <h2 className=" text-base md:text-lg font-semibold text-white mb-2 lg:mb-4 font-poppins">Email Address <span className="text-[#c9f31d]">*</span></h2>
-                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none" type="text" name="propertyname" placeholder="Enter Property Name Here" id="" />
+                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none placeholder-[#FFFFFF33]" type="text" name="propertyname" placeholder="support@gmail.com" id="" />
                         </div>
                     </div>
                     <div className="flex items-center  flex-col md:flex-row gap-5 lg:gap-10" >
                         <div className="">
                             <h2 className=" text-base md:text-lg font-semibold text-white mb-2 lg:mb-4 font-poppins">Phone Number <span className="text-[#c9f31d]">*</span></h2>
-                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none" type="text" name="propertyname" placeholder="Enter Property Name Here" id="" />
+                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none placeholder-[#FFFFFF33]" type="text" name="propertyname" placeholder="+8801824565456" id="" />
                         </div>
                         <div className="">
                             <h2 className=" text-base md:text-lg font-semibold text-white mb-2 lg:mb-4 font-poppins">Subject <span className="text-[#c9f31d]">*</span></h2>
-                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none" type="text" name="propertyname" placeholder="Enter Property Name Here" id="" />
+                            <input className="pt-4 pb-4 pl-2 md:pl-8 md:py-5 xs:w-[280px] sm:w-[340px] semi-sm:w-[380px] md:w-[350px] lg:w-[380px] bg-[#292828]   text-base font-semibold font-lora text-white rounded-xl border  border-[#353535] focus:border-[#c9f31d] focus:outline-none placeholder-[#FFFFFF33]" type="text" name="propertyname" placeholder="i would like to discussed" id="" />
                         </div>
                     </div>
                     <div className="mb-10 mt-5 md:mt-10 ">
                         <h2 className=" text-base md:text-lg font-semibold text-white mb-2 lg:mb-4 font-poppins">Textarea <span className="text-[#c9f31d]">*</span></h2>
-                        <textarea id="message" rows="4" className="block pt-4 pb-4 pl-2 md:pl-8 md:py-5 w-full text-base font-semibold font-lora text-white bg-[#292828] rounded-xl   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border  border-[#353535] focus:border-[#c9f31d] focus:outline-none" placeholder="Write message"></textarea>
+                        <textarea id="message" rows="4" className="block pt-4 pb-4 pl-2 md:pl-8 md:py-5 w-full text-base font-semibold font-lora text-white bg-[#292828] rounded-xl   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 border  border-[#353535] focus:border-[#c9f31d] focus:outline-none placeholder-[#FFFFFF33]" placeholder="Write message"></textarea>
 
                     </div>
                 </div>
