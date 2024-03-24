@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto mt-24 mb-20">
             <div className="flex items-start gap-20">
                 <div>
                     <h5 className="text-base font-poppins font-medium text-[#b1b1b1]">Get In Touch</h5>
