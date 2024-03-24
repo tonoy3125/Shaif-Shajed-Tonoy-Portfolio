@@ -29,7 +29,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="">
+        <div className="lg:px-20">
             <div className="navbar">
                 <div className="navbar-start">
                     {/* Responsive left Side logo & heading */}

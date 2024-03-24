@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Banner = () => {
     return (
-        <div>
+        <div className='lg:px-20'>
             <div className="flex items-center px-5 flex-col md:flex-row mt-10 mb-10 xs:gap-5 md:gap-7 lg:gap-0">
                 {/* Heading */}
                 <div className="">
