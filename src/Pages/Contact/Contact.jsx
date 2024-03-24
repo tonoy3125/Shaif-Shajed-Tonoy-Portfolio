@@ -1,4 +1,4 @@
-
+import { IoCheckmarkSharp } from "react-icons/io5";
 
 const Contact = () => {
     return (
@@ -6,8 +6,32 @@ const Contact = () => {
             <div className="flex items-start flex-col lg:flex-row gap-20 xs:ml-4 sm:ml-5 semi-sm:ml-5 lg:ml-0">
                 <div>
                     <h5 className="text-base font-poppins font-medium text-[#b1b1b1] mb-5">Get In Touch</h5>
-                    <h1 className="font-poppins text-3xl sm:text-4xl lg:text-[45px] font-medium mb-12"><span className="text-[#fff]">Let’s Talk For your</span> <br className="lg:block md:hidden" /><span className="text-[#c9f31d]">Next Projects</span></h1>
+                    <h1 className="font-poppins text-3xl sm:text-4xl lg:text-[45px] font-medium mb-12 leading-5"><span className="text-[#fff]">Let’s Talk For your</span> <br className="lg:block md:hidden" /><span className="text-[#c9f31d]">Next Projects</span></h1>
                     <p className="text-base text-[#b1b1b1] font-poppins lg:w-[400px] sm:mr-1 semi-sm:mr-0">Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis</p>
+                    <div className="flex items-center gap-5 mt-10 mb-7">
+                        <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
+                            <IoCheckmarkSharp className="text-xl" />
+                        </div>
+                        <p className="text-[#b1b1b1] text-xl font-medium">5+ Years Of Experience</p>
+                    </div>
+                    <div className="flex items-center gap-5 mb-7">
+                        <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
+                            <IoCheckmarkSharp className="text-xl" />
+                        </div>
+                        <p className="text-[#b1b1b1] text-xl font-medium">Professional Web Designer</p>
+                    </div>
+                    <div className="flex items-center gap-5 mb-7">
+                        <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
+                            <IoCheckmarkSharp className="text-xl" />
+                        </div>
+                        <p className="text-[#b1b1b1] text-xl font-medium">Mobile Apps Design</p>
+                    </div>
+                    <div className="flex items-center gap-5 mb-7">
+                        <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
+                            <IoCheckmarkSharp className="text-xl" />
+                        </div>
+                        <p className="text-[#b1b1b1] text-xl font-medium">Custom Design Support</p>
+                    </div>
                 </div>
                 <div>
                     <div className="flex items-center  flex-col md:flex-row gap-5 lg:gap-10 mb-5 md:mb-14" >
