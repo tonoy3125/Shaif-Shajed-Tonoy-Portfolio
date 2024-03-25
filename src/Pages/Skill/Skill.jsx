@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Skill = () => {
     return (
-        <div className="pb-10 pt-10">
+        <div className="pb-10 pt-10 bg-[#070707]">
             <div>
                 <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">My Skills</h5>
                 <h1 className="text-5xl font-medium text-center font-poppins"><span className="text-[#fff]">Let’s Explore</span> <span className="text-[#c9f31d]">Popular Skills</span></h1>

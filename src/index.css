@@ -11,3 +11,19 @@ body {
     /* Adjust scratch line width */
     /* Adjust scratch line width */
 }
+
+/* Media query for screens 768px and above */
+@media (max-width: 768px) {
+    body {
+        background-size: calc(100% / 6) 100%;
+        /* 5 lines for screens 768px and above */
+    }
+}
+
+/* Media query for screens between 425px and 320px */
+@media (max-width: 425px) and (min-width: 320px) {
+    body {
+        background-size: calc(100% / 5) 100%;
+        /* 4 lines for screens between 425px and 320px */
+    }
+}
