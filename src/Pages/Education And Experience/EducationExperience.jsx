@@ -17,7 +17,14 @@ const EducationExperience = () => {
                     </div>
                     <Education></Education>
                 </div>
-                
+                <div className=" hidden lg:flex mt-20">
+                    <ul className="steps steps-vertical h-[700px]">
+                        <li className="step"></li>
+                        <li className="step"></li>
+                        <li className="step"></li>
+                        <li className="step"></li>
+                    </ul>
+                </div>
                 <div>
                     <div className="flex items-center gap-5 mb-10 text-[#fff]">
                         <FaUserGraduate className="text-5xl" />
