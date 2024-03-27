@@ -6,7 +6,7 @@ const Experience = () => {
             <div className="max-w-5xl mx-auto mb-20">
                 <div className="grid grid-cols-1  gap-5 md:px-14 px-4 lg:px-0 font-lora">
 
-                    <div className="border border-[#353535] shadow-2xl  bg-[#292828]  rounded py-5 px-2">
+                    <div className="border-2 border-[#353535] shadow-2xl  bg-[#292828]  rounded-lg py-5 px-2 hover:border-[#c9f31d]">
                         <h1 className="text-xl font-semibold text-[#fff]">React.js Project Developer</h1>
                         <h3 className="text-base font-medium text-[#fff] flex items-center mt-2"> <IoMdArrowDropright></IoMdArrowDropright>Dynamic UI Creation:</h3>
                         <p className=" font-medium text-[#fff] text-sm">Crafted captivating user interfaces & web interaction.</p>
@@ -14,14 +14,14 @@ const Experience = () => {
                         <p className="text-sm font-medium text-white">Leveraged Tailwind CSS for refined, modernized web aesthetics.</p>
 
                     </div>
-                    <div className="border border-[#353535] shadow-2xl  bg-[#292828]  rounded py-5 px-2">
+                    <div className="border-2 border-[#353535] shadow-2xl  bg-[#292828]  rounded-lg py-5 px-2 hover:border-[#c9f31d]">
                         <h1 className="text-xl font-semibold text-[#fff]">Database Integration With MongoDB</h1>
                         <h3 className="text-base font-medium text-[#fff] flex items-center mt-2">  <IoMdArrowDropright></IoMdArrowDropright> Efficient Data Storage:</h3>
                         <p className="text-sm font-medium text-[#fff]">Utilized MongoDB for efficient, scalable data storage..</p>
                         <h3 className="text-base font-medium text-[#fff] flex items-center mt-2"><IoMdArrowDropright></IoMdArrowDropright> Enhanced Backend Functionality: </h3>
                         <p className="text-sm font-medium text-[#fff]">Integrated MongoDB, optimized backend for performance.</p>
                     </div>
-                    <div className="border border-[#353535] shadow-2xl  bg-[#292828]  rounded py-5 px-2">
+                    <div className="border-2 border-[#353535] shadow-2xl  bg-[#292828]  rounded-lg py-5 px-2 hover:border-[#c9f31d]">
                         <h1 className="text-xl font-semibold text-[#fff]">Version Control Skills</h1>
                         <h3 className="text-base font-medium text-[#fff] flex items-center mt-2"> <IoMdArrowDropright></IoMdArrowDropright>Git Proficiency:</h3>
                         <p className="text-sm font-medium text-[#fff]">
