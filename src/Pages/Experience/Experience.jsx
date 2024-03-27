@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <div>
             <div className="max-w-5xl mx-auto mb-20">
-                <div className="grid grid-cols-1  gap-5 md:px-14 px-4 lg:px-0">
+                <div className="grid grid-cols-1  gap-5 md:px-14 px-4 lg:px-0 font-lora">
 
                     <div className="border border-[#353535] shadow-2xl  bg-[#292828]  rounded py-5 px-2">
                         <h1 className="text-xl font-semibold text-[#fff]">React.js Project Developer</h1>

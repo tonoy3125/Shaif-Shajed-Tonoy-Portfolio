@@ -3,7 +3,7 @@
 const Education = () => {
     return (
         <div className="max-w-5xl mx-auto mb-20">
-            <div className="grid grid-cols-1  gap-5 md:px-14 px-4 lg:px-0">
+            <div className="grid grid-cols-1  gap-5 md:px-14 px-4 lg:px-0 font-lora">
                 <div className=" rounded text-center py-5 border border-[#353535] shadow-2xl  bg-[#292828]">
                     <h1 className="text-xl font-semibold text-white">Master of Social Sciences (MSS)</h1>
                     <h3 className="text-base font-medium text-white">Department Of Economics</h3>
