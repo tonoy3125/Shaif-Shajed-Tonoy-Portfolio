@@ -12,8 +12,8 @@ const EducationExperience = () => {
             <div className="flex lg:flex-row flex-col justify-between gap-6">
                 <div>
                     <div className="flex items-center gap-5 mb-10 text-[#fff] font-poppins justify-center lg:justify-start">
-                        <FaUserGraduate className=" md:text-4xl lg:text-5xl" />
-                        <h1 className="md:text-4xl lg:text-5xl font-bold">My Education</h1>
+                        <FaUserGraduate className=" semi-sm:text-3xl md:text-4xl lg:text-5xl" />
+                        <h1 className="semi-sm:text-3xl md:text-4xl lg:text-5xl font-bold">My Education</h1>
                     </div>
                     <Education></Education>
                 </div>
@@ -27,8 +27,8 @@ const EducationExperience = () => {
                 </div>
                 <div>
                     <div className="flex items-center gap-5 mb-10 text-[#fff] font-poppins justify-center lg:justify-start">
-                        <SlBadge className="md:text-4xl lg:text-5xl" />
-                        <h1 className="md:text-4xl lg:text-5xl font-bold">My Experience</h1>
+                        <SlBadge className=" semi-sm:text-3xl md:text-4xl lg:text-5xl" />
+                        <h1 className="semi-sm:text-3xl md:text-4xl lg:text-5xl font-bold">My Experience</h1>
                     </div>
                     <Experience></Experience>
                 </div>
