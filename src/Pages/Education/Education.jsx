@@ -16,7 +16,7 @@ const Education = () => {
                     <p className="text-base font-medium text-white">Passing Year : 2020 </p>
                     <p className="text-base font-medium text-white">National University Of Bangladesh </p>
                 </div>
-                <div className="border border-[#353535] shadow-2xl  bg-[#292828] text-center rounded py-5">
+                <div className="border border-[#353535] shadow-2xl  bg-[#292828] text-center rounded py-5 px-1">
                     <h1 className="text-xl font-semibold text-white">Higher Secondary School Certificate (HSC)</h1>
                     <h3 className="text-base font-medium text-white">Business Studies</h3>
                     <p className="text-base font-medium text-white">Passing Year : 2014 </p>
