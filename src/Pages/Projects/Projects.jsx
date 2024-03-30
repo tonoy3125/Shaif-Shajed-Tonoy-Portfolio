@@ -4,6 +4,15 @@ import './Projects.css'
 
 const Projects = () => {
     const [isHovered, setIsHovered] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => {
+        setModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setModalOpen(false);
+    }
     return (
         <div className="pt-10 pb-10">
             <div className="max-w-6xl mx-auto">
@@ -12,7 +21,9 @@ const Projects = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 pt-20">
                     <div className="relative px-10 pt-16 bg-[#070707] border border-[#353535] rounded-xl"
                         onMouseEnter={() => setIsHovered(true)}
-                        onMouseLeave={() => setIsHovered(false)}>
+                        onMouseLeave={() => setIsHovered(false)}
+                        onClick={openModal}
+                    >
                         <img className="rounded" src="https://i.ibb.co/HNJxcRs/Screenshot-2024-03-30-at-02-56-46-BD-Quick-School1.png" alt="" />
                         <div className={`project-info ${isHovered ? 'show' : ''}`}>
                             <div>
@@ -20,10 +31,24 @@ const Projects = () => {
                                 <p className='text-base font-lora mb-2'>Project was about precision and information.</p>
                             </div>
                             <MdOutlineArrowOutward className={`text-4xl rotate-icon ${isHovered ? 'rotate-full' : ''}`} />
+
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
+            {modalOpen &&
+                <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal-content">
+                        <span className="modal-close" onClick={closeModal}>&times;</span>
+                        {/* Modal content */}
+                        <h2>Modal Title</h2>
+                        <p>This is the modal content.</p>
+                    </div>
+                </div>
+            }
         </div>
     );
 };
