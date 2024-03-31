@@ -90,11 +90,31 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='buttonContainer'>
-                            <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
-                                <span className='text-base font-lora font-semibold'>Live Preview</span>
-                                <MdOutlineArrowOutward className='text-xl arrowIcon' />
-                            </button>
+                        <div className='flex items-center gap-2 mt-10'>
+                            <a href="https://quick-school-client.netlify.app/">
+                                <div className='buttonContainer'>
+                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                        <span className='text-base font-lora font-semibold'>Live Preview</span>
+                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                    </button>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Shiham123/bd-quick-school-client">
+                                <div className='buttonContainer'>
+                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                        <span className='text-base font-lora font-semibold'>Client-Side-Repo</span>
+                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                    </button>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Shiham123/bd-quick-school-server">
+                                <div className='buttonContainer'>
+                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                        <span className='text-base font-lora font-semibold'>Server-Side-Repo</span>
+                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                    </button>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
