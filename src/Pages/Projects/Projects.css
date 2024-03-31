@@ -46,21 +46,35 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    padding-top: 150px;
     /* Ensure modal is on top */
 }
 
 .modal-content {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 80%;
-    max-height: 80%;
+    padding: 40px;
+    max-width: 1100px;
+    max-height: calc(100vh - 80px);
+    /* Subtract the padding from the viewport height */
     overflow: auto;
+    position: fixed;
+    /* Fixed positioning to keep modal content fixed on the screen */
+    top: 50%;
+    /* Center the modal vertically */
+    left: 50%;
+    /* Center the modal horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust to center the modal */
 }
+
 
 .modal-close {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
+}
+
+.modal-open {
+    overflow: hidden;
 }

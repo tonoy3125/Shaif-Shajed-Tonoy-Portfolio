@@ -1,10 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MdOutlineArrowOutward } from "react-icons/md";
 import './Projects.css'
 
 const Projects = () => {
     const [isHovered, setIsHovered] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
+
+
+    useEffect(() => {
+        if (modalOpen) {
+            document.body.style.overflow = 'hidden'; // Disable scrolling when modal is open
+        } else {
+            document.body.style.overflow = 'auto'; // Enable scrolling when modal is closed
+        }
+    }, [modalOpen]);
 
     const openModal = () => {
         setModalOpen(true);
@@ -13,6 +22,14 @@ const Projects = () => {
     const closeModal = () => {
         setModalOpen(false);
     }
+
+    const handleModalClick = (event) => {
+        if (event.target.classList.contains('modal-overlay')) {
+            closeModal();
+        }
+    };
+
+
     return (
         <div className="pt-10 pb-10">
             <div className="max-w-6xl mx-auto">
@@ -22,10 +39,10 @@ const Projects = () => {
                     <div className="relative px-10 pt-16 bg-[#070707] border border-[#353535] rounded-xl"
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
-                        onClick={openModal}
+
                     >
                         <img className="rounded" src="https://i.ibb.co/HNJxcRs/Screenshot-2024-03-30-at-02-56-46-BD-Quick-School1.png" alt="" />
-                        <div className={`project-info ${isHovered ? 'show' : ''}`}>
+                        <div onClick={openModal} className={`project-info ${isHovered ? 'show' : ''}`}>
                             <div>
                                 <h1 className='text-2xl font-semibold font-poppins mb-3'>BD Quick School</h1>
                                 <p className='text-base font-lora mb-2'>Project was about precision and information.</p>
@@ -40,12 +57,15 @@ const Projects = () => {
                 </div>
             </div>
             {modalOpen &&
-                <div className="modal-overlay" onClick={closeModal}>
+                <div className="modal-overlay" onClick={handleModalClick}>
                     <div className="modal-content">
                         <span className="modal-close" onClick={closeModal}>&times;</span>
                         {/* Modal content */}
-                        <h2>Modal Title</h2>
-                        <p>This is the modal content.</p>
+                        <img className='max-w-5xl' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
+                        <div>
+                            <h1>Bd Quick School</h1>
+                            <p>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
+                        </div>
                     </div>
                 </div>
             }
