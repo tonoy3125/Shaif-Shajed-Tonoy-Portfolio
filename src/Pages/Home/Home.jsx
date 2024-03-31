@@ -5,11 +5,12 @@ import Projects from "../Projects/Projects";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import Skill from "../Skill/Skill";
+import './Home.css'
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-container">
             <Navbar />
             <Banner />
             <EducationExperience />

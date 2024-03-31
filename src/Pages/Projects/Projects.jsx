@@ -9,9 +9,9 @@ const Projects = () => {
 
     useEffect(() => {
         if (modalOpen) {
-            document.body.style.overflow = 'hidden'; // Disable scrolling when modal is open
+            document.body.classList.add('modal-open'); // Add class to body
         } else {
-            document.body.style.overflow = 'auto'; // Enable scrolling when modal is closed
+            document.body.classList.remove('modal-open'); // Remove class from body
         }
     }, [modalOpen]);
 

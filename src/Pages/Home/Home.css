@@ -1,0 +1,36 @@
+/* Your other CSS styles */
+
+.home-container {
+    overflow-y: auto;
+    /* Add overflow-y to show scrollbar */
+    max-height: 100vh;
+    /* Ensure the container doesn't exceed the viewport height */
+}
+
+/* For WebKit-based browsers (e.g., Chrome, Safari) */
+.home-container::-webkit-scrollbar {
+    width: 8px;
+    /* Set the width of the scrollbar */
+}
+
+.home-container::-webkit-scrollbar-track {
+    background: transparent;
+    /* Set the background color of the scrollbar track */
+}
+
+.home-container::-webkit-scrollbar-thumb {
+    background-color: #8750f7;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Set the border radius of the scrollbar thumb */
+}
+
+/* For Firefox */
+.home-container {
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar */
+    scrollbar-color: #8750f7 transparent;
+    /* Set the color of the scrollbar thumb */
+}
+
+/* Your other CSS styles */

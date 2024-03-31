@@ -12,6 +12,8 @@ body {
     /* Adjust scratch line width */
 }
 
+
+
 /* Media query for screens 768px and above */
 @media (max-width: 768px) {
     body {
