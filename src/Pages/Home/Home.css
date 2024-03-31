@@ -14,7 +14,7 @@
 }
 
 .home-container::-webkit-scrollbar-track {
-    background: transparent;
+    background-color: #8750f7;
     /* Set the background color of the scrollbar track */
 }
 
@@ -29,8 +29,8 @@
 .home-container {
     scrollbar-width: thin;
     /* Set the width of the scrollbar */
-    scrollbar-color: #8750f7 transparent;
-    /* Set the color of the scrollbar thumb */
+    scrollbar-color: #8750f7 #2a1454;
+    /* Set the color of the scrollbar thumb and track */
 }
 
 /* Your other CSS styles */

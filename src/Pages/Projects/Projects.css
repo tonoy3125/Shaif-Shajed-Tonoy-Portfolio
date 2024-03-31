@@ -34,17 +34,6 @@
 
 /* Modal.css */
 
-.modal-open {
-    overflow: hidden;
-}
-
-.modal-open .max-w-6xl {
-    overflow-y: auto;
-    padding-right: 17px;
-    /* Adjust for scrollbar width */
-}
-
-
 .modal-overlay {
     position: fixed;
     top: 0;
