@@ -62,13 +62,13 @@ const Projects = () => {
                         <span className="modal-close" onClick={closeModal}>&times;</span>
                         {/* Modal content */}
                         <img className='max-w-5xl' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
-                        <div className='flex gap-20'>
-                            <div className='flex-1'>
-                                <h1 className='text-4xl font-poppins font-bold'>Bd Quick School</h1>
+                        <div className='flex items-center gap-20'>
+                            <div className='flex-1 mt-10'>
+                                <h1 className='text-4xl font-poppins font-bold mb-5'>Bd Quick School</h1>
                                 <p className='font-lora text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
                             </div>
                             <div className='flex-1'>
-                                <div className='flex items-center gap-40'>
+                                <div className='flex items-center gap-40 mt-10'>
                                     <div>
                                         <h3 className='text-base font-poppins'>Category</h3>
                                         <p className='text-base font-lora font-medium'>Full Stack  Project</p>
@@ -78,7 +78,7 @@ const Projects = () => {
                                         <p className='text-base font-lora font-medium'>Education Platform</p>
                                     </div>
                                 </div>
-                                <div className='flex items-center gap-[167px]'>
+                                <div className='flex items-center gap-[167px] mt-10'>
                                     <div>
                                         <h3 className='text-base font-poppins'>Start Date</h3>
                                         <p className='text-base font-lora font-medium'>January 20, 2024</p>
@@ -89,6 +89,12 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className='buttonContainer'>
+                            <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                <span className='text-base font-lora font-semibold'>Live Preview</span>
+                                <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                            </button>
                         </div>
                     </div>
                 </div>

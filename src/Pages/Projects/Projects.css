@@ -78,3 +78,24 @@
 .modal-open {
     overflow: hidden;
 }
+
+
+.buttoninner {
+    background-image: linear-gradient(to right, #8750f7, #2a1454);
+    transition: background-position 2s ease;
+    /* Transition for background position */
+    background-size: 200% auto;
+    /* Double the width to accommodate the transition */
+}
+
+.buttoninner:hover {
+    background-position: right center;
+    /* Move the background to the right */
+}
+
+
+
+.buttonContainer:hover .arrowIcon {
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+}
