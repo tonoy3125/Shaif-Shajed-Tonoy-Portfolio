@@ -31,7 +31,7 @@ const Footer = () => {
                                 </div>
                                 <div className="flex items-center font-lora gap-5 ">
                                     <div className="relative z-0 w-full mb-5 group">
-                                        <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 semi-sm:w-56 md:w-96 text-base text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 " placeholder=" Email Address" required />
+                                        <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 semi-sm:w-56 md:w-96 text-base text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 outline-none" placeholder=" Email Address" required />
                                     </div>
                                     <button className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Sign Up</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
                                 </div>

@@ -6,8 +6,8 @@ const Skill = () => {
         <div className="pb-10 pt-10 bg-[#070707]">
             <div>
                 <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">My Skills</h5>
-                <h1 className="text-5xl font-medium text-center font-poppins"><span className="text-[#fff]">Let’s Explore</span> <span className="text-[#c9f31d]">Popular Skills</span></h1>
-                <div className="grid grid-cols-1 semi-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 px-16 semi-sm:px-4 md:px-5 lg:px-0 gap-5 semi-sm:gap-3 md:gap-7  max-w-7xl mx-auto mt-20">
+                <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins"><span className="text-[#fff]">Let’s Explore</span> <span className="text-[#c9f31d]">Popular Skills</span></h1>
+                <div className="grid grid-cols-1 semi-sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 px-16 semi-sm:px-4 md:px-5 lg:px-0 gap-5 semi-sm:gap-3 md:gap-7  max-w-7xl mx-auto mt-14 sm:mt-20">
                     {/* Html */}
                     <div className=" skill-card">
                         <img className="w-14 h-14 mx-auto mt-5" src="https://i.ibb.co/R3QRS0M/icons8-html-480.png" alt="" />

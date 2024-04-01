@@ -35,7 +35,7 @@ const Projects = () => {
         <div className="pt-10 pb-10">
             <div className="max-w-6xl mx-auto">
                 <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">Latest Works</h5>
-                <h1 className="text-5xl font-medium text-center font-poppins"><span className="text-[#fff] mb-10">Explore My Popular</span> <span className="text-[#c9f31d]">Projects</span></h1>
+                <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center font-poppins"><span className="text-[#fff] mb-10">Explore My Popular</span> <span className="text-[#c9f31d]">Projects</span></h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-20 xs:mx-4 md:mx-4">
                     <div className="relative xs:px-2 xs:pt-2 sm:px-3 pt-3 md:px-5 md:pt-5 lg:px-10 lg:pt-10 bg-[#070707] border border-[#353535] rounded-xl"
                         onMouseEnter={() => setIsHovered(true)}
@@ -62,8 +62,8 @@ const Projects = () => {
                     <div className="modal-content">
                         <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
-                        <img className='sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[40px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
-                        <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[40px]'>
+                        <img className='sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[35px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
+                        <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]'>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
                                     <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
