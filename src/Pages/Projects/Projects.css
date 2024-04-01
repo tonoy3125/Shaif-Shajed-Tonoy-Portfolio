@@ -178,7 +178,7 @@
 @media only screen and (max-width: 375px) {
     .modal-overlay {
         width: 100%;
-        padding-top: 500px;
+        padding-top: 550px;
     }
 
     .modal-content {
@@ -189,7 +189,26 @@
     }
 
     .modal-close {
-        top: -30px;
-        right: -25px;
+        top: -25px;
+        right: -20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .modal-overlay {
+        width: 100%;
+        padding-top: 550px;
+    }
+
+    .modal-content {
+        max-width: 250px;
+        padding-top: 20px;
+        width: 100%;
+
+    }
+
+    .modal-close {
+        top: -25px;
+        right: -20px;
     }
 }
