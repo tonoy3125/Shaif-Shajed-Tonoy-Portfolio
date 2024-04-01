@@ -151,6 +151,26 @@
         max-width: 650px;
         padding-top: 40px;
         width: 100%;
-        /* Adjust the maximum width for tablet responsiveness */
+
+    }
+}
+
+/* Tablet Responsive Styles for modal */
+@media only screen and (max-width: 425px) {
+    .modal-overlay {
+        width: 100%;
+        padding-top: 500px;
+    }
+
+    .modal-content {
+        max-width: 350px;
+        padding-top: 40px;
+        width: 100%;
+
+    }
+
+    .modal-close {
+        top: -30px;
+        right: -25px;
     }
 }
