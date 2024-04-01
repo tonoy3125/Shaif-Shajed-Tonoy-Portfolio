@@ -1,7 +1,9 @@
+/* Project arrow icon Transform for rotate */
 .rotate-icon {
     transition: transform 0.5s ease-in-out;
 }
 
+/* project info */
 .project-info {
     position: absolute;
     bottom: 0;
@@ -21,18 +23,18 @@
     cursor: pointer;
 }
 
+/* Project Info show */
 .project-info.show {
     opacity: 1;
 }
 
+/* Project arrow icon rotate */
 .rotate-icon.rotate-full {
     transform: rotate(360deg);
 }
 
 
 /* Modal.css */
-
-
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -84,7 +86,7 @@
     overflow: hidden;
 }
 
-
+/* Button Css With Hover */
 .buttoninner {
     background-image: linear-gradient(to right, #8750f7, #2a1454);
     transition: background-position 2s ease;
@@ -95,8 +97,7 @@
     background-position: right center;
 }
 
-
-
+/* Button animantion */
 .buttonContainer:hover .arrowIcon {
     transform: rotate(45deg);
     transition: transform 0.5s ease;
