@@ -122,3 +122,17 @@
     transform: rotate(45deg);
     transition: transform 0.5s ease;
 }
+
+
+
+
+/* Tablet Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .project-info {
+        width: auto;
+        padding: 10px;
+        bottom: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
