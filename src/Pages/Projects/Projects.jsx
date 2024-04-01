@@ -62,60 +62,62 @@ const Projects = () => {
                     <div className="modal-content">
                         <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
-                        <img className='max-w-5xl' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
-                        <div className='flex items-center gap-20'>
-                            <div className='flex-1 mt-10'>
-                                <h1 className='text-4xl font-poppins font-bold mb-5'>Bd Quick School</h1>
-                                <p className='font-lora text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
+                        <img className=' md:px-7 lg:px-[40px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
+                        <div className='bg-white md:px-7 lg:px-[40px]'>
+                            <div className='flex items-center gap-7 lg:gap-20'>
+                                <div className='lg:flex-1 mt-10'>
+                                    <h1 className='md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
+                                    <p className='font-lora md:text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
+                                </div>
+                                <div className='lg:flex-1'>
+                                    <div className='flex items-center gap-5 lg:gap-40 mt-10'>
+                                        <div style={{ whiteSpace: "nowrap" }}>
+                                            <h3 className='text-base font-poppins'>Category</h3>
+                                            <p className='text-base font-lora font-medium'>Full Stack  Project</p>
+                                        </div>
+                                        <div style={{ whiteSpace: "nowrap" }}>
+                                            <h3 className='text-base font-poppins'>Type</h3>
+                                            <p className='text-base font-lora font-medium'>Education Platform</p>
+                                        </div>
+                                    </div>
+                                    <div className='flex items-center gap-7 lg:gap-[167px] mt-10'>
+                                        <div>
+                                            <h3 className='text-base font-poppins'>Start Date</h3>
+                                            <p className='text-base font-lora font-medium'>January 20, 2024</p>
+                                        </div>
+                                        <div>
+                                            <h3 className='text-base font-poppins'>End Date</h3>
+                                            <p className='text-base font-lora font-medium'>March 10, 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className='flex-1'>
-                                <div className='flex items-center gap-40 mt-10'>
-                                    <div>
-                                        <h3 className='text-base font-poppins'>Category</h3>
-                                        <p className='text-base font-lora font-medium'>Full Stack  Project</p>
+                            <div className='flex items-center md:gap-2 lg:gap-2 mt-10' style={{ whiteSpace: "nowrap" }}>
+                                <a href="https://quick-school-client.netlify.app/">
+                                    <div className='buttonContainer'>
+                                        <button className='flex items-center lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                            <span className='text-sm lg:text-base font-lora font-semibold'>Live Preview</span>
+                                            <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                        </button>
                                     </div>
-                                    <div>
-                                        <h3 className='text-base font-poppins'>Type</h3>
-                                        <p className='text-base font-lora font-medium'>Education Platform</p>
+                                </a>
+                                <a href="https://github.com/Shiham123/bd-quick-school-client" style={{ whiteSpace: "nowrap" }}>
+                                    <div className='buttonContainer'>
+                                        <button className='flex items-center lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                            <span className='lg:text-base font-lora font-semibold'>Client-Side-Repo</span>
+                                            <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                        </button>
                                     </div>
-                                </div>
-                                <div className='flex items-center gap-[167px] mt-10'>
-                                    <div>
-                                        <h3 className='text-base font-poppins'>Start Date</h3>
-                                        <p className='text-base font-lora font-medium'>January 20, 2024</p>
+                                </a>
+                                <a href="https://github.com/Shiham123/bd-quick-school-server" style={{ whiteSpace: "nowrap" }}>
+                                    <div className='buttonContainer'>
+                                        <button className='flex items-center lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
+                                            <span className='lg:text-base font-lora font-semibold'>Server-Side-Repo</span>
+                                            <MdOutlineArrowOutward className='text-xl arrowIcon' />
+                                        </button>
                                     </div>
-                                    <div>
-                                        <h3 className='text-base font-poppins'>End Date</h3>
-                                        <p className='text-base font-lora font-medium'>March 10, 2024</p>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
-                        </div>
-                        <div className='flex items-center gap-2 mt-10'>
-                            <a href="https://quick-school-client.netlify.app/">
-                                <div className='buttonContainer'>
-                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
-                                        <span className='text-base font-lora font-semibold'>Live Preview</span>
-                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
-                                    </button>
-                                </div>
-                            </a>
-                            <a href="https://github.com/Shiham123/bd-quick-school-client">
-                                <div className='buttonContainer'>
-                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
-                                        <span className='text-base font-lora font-semibold'>Client-Side-Repo</span>
-                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
-                                    </button>
-                                </div>
-                            </a>
-                            <a href="https://github.com/Shiham123/bd-quick-school-server">
-                                <div className='buttonContainer'>
-                                    <button className='flex items-center gap-2 text-white buttoninner px-7 py-3 rounded-full '>
-                                        <span className='text-base font-lora font-semibold'>Server-Side-Repo</span>
-                                        <MdOutlineArrowOutward className='text-xl arrowIcon' />
-                                    </button>
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
