@@ -62,15 +62,15 @@ const Projects = () => {
                     <div className="modal-content">
                         <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
-                        <img className=' semi-sm:px-5 md:px-7 lg:px-[40px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
-                        <div className='bg-white semi-sm:px-5 md:px-7 lg:px-[40px]'>
+                        <img className='sm:px-4 semi-sm:px-5 md:px-7 lg:px-[40px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
+                        <div className='bg-white sm:px-4 semi-sm:px-5 md:px-7 lg:px-[40px]'>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
-                                    <h1 className='semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
+                                    <h1 className='sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
                                     <p className='font-lora text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
                                 </div>
                                 <div className='lg:flex-1'>
-                                    <div className='flex flex-col semi-sm:flex-row  md:items-center gap-5 lg:gap-40 mt-10'>
+                                    <div className='flex flex-col semi-sm:flex-row pr-[115px] semi-sm:items-center gap-5 lg:gap-40 mt-10'>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Category</h3>
                                             <p className='text-base font-lora font-medium'>Full Stack  Project</p>
@@ -92,7 +92,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex flex-col md:flex-row md:items-center semi-sm:gap-5 md:gap-2 lg:gap-2 mt-10' style={{ whiteSpace: "nowrap" }}>
+                            <div className='flex flex-col md:flex-row md:items-center sm:gap-5 md:gap-2 lg:gap-2 mt-10' style={{ whiteSpace: "nowrap" }}>
                                 <a href="https://quick-school-client.netlify.app/">
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
