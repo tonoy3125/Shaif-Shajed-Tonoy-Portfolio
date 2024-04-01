@@ -36,8 +36,8 @@ const Projects = () => {
             <div className="max-w-6xl mx-auto">
                 <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">Latest Works</h5>
                 <h1 className="text-5xl font-medium text-center font-poppins"><span className="text-[#fff] mb-10">Explore My Popular</span> <span className="text-[#c9f31d]">Projects</span></h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 pt-20 md:mx-4">
-                    <div className="relative md:px-5 md:pt-5 lg:px-10 lg:pt-16 bg-[#070707] border border-[#353535] rounded-xl"
+                <div className="grid grid-cols-1 md:grid-cols-2 pt-20 xs:mx-4 md:mx-4">
+                    <div className="relative xs:px-2 xs:pt-2 sm:px-3 pt-3 md:px-5 md:pt-5 lg:px-10 lg:pt-10 bg-[#070707] border border-[#353535] rounded-xl"
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
 
@@ -45,10 +45,10 @@ const Projects = () => {
                         <img className="rounded" src="https://i.ibb.co/HNJxcRs/Screenshot-2024-03-30-at-02-56-46-BD-Quick-School1.png" alt="" />
                         <div onClick={openModal} className={`project-info ${isHovered ? 'show' : ''}`}>
                             <div>
-                                <h1 className='text-2xl font-semibold font-poppins lg:mb-3'>BD Quick School</h1>
-                                <p className='text-base font-lora lg:mb-2'>Project was about precision and information.</p>
+                                <h1 className='xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3'>BD Quick School</h1>
+                                <p className='xs:text-sm sm:text-base font-lora semi-sm:mb-1 md:mb-0 lg:mb-2'>Project was about precision and information.</p>
                             </div>
-                            <MdOutlineArrowOutward className={`md:text-3xl lg:text-4xl rotate-icon ${isHovered ? 'rotate-full' : ''}`} />
+                            <MdOutlineArrowOutward className={`xs:text-2xl semi-sm:text-3xl lg:text-4xl rotate-icon ${isHovered ? 'rotate-full' : ''}`} />
 
                         </div>
 
