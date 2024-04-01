@@ -60,7 +60,7 @@ const Projects = () => {
             {modalOpen &&
                 <div className="modal-overlay" onClick={handleModalClick}>
                     <div className="modal-content">
-                        <span className="modal-close " onClick={closeModal}><ImCross /></span>
+                        <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
                         <img className='max-w-5xl' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
                         <div className='flex items-center gap-20'>

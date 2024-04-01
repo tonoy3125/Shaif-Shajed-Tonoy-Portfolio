@@ -90,6 +90,18 @@
     border-radius: 9999px;
 }
 
+
+.modal-close.rotate {
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth animation */
+}
+
+.modal-close.rotate:hover {
+    transform: rotate(180deg);
+    /* Rotate the cancel button 180 degrees on hover */
+}
+
+
 .modal-open {
     overflow: hidden;
 }
