@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { ImCross } from "react-icons/im";
 import './Projects.css'
+import Slider from '../../Components/Project One/Slider';
+
+
 
 const Projects = () => {
     const [isHovered, setIsHovered] = useState(false);
@@ -118,7 +121,11 @@ const Projects = () => {
                                     </div>
                                 </a>
                             </div>
+                            <div className='mt-14 pb-14'>
+                                <Slider />
+                            </div>
                         </div>
+
                     </div>
                 </div>
             }
