@@ -67,7 +67,7 @@ const Projects = () => {
                         <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
                         <img className='sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[35px]' src="https://i.ibb.co/gd2dpPv/Screenshot-2024-03-28-at-13-57-06-BD-Quick-School.png" alt="" />
-                        <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]'>
+                        <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px] '>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
                                     <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
