@@ -11,3 +11,20 @@
     /* Active color */
 }
 
+/* Customize pagination color */
+.swiper-pagination-bullet {
+    background-color: #8750f7;
+    /* Default color */
+    width: 10px;
+    /* Adjust bullet width */
+    height: 10px;
+    /* Adjust bullet height */
+    margin: 0 2px;
+    /* Adjust bullet margin */
+}
+
+/* Hover effect for pagination bullets */
+.swiper-pagination-bullet:hover {
+    opacity: 0.7;
+    /* Adjust opacity for hover effect */
+}
