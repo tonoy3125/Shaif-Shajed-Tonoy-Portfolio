@@ -21,7 +21,28 @@ const Slider = () => {
                 }}
                 modules={[Pagination]}
                 className="mySwiper"
-                
+                breakpoints={{
+                    // When window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                    },
+                    // When window width is >= 375px
+                    375: {
+                        slidesPerView: 1,
+                    },
+                    // When window width is >= 425px
+                    425: {
+                        slidesPerView: 1,
+                    },
+                    // When window width is >= 768px
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    // When window width is >= 1024px
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                }}
             >
                 <SwiperSlide className='mb-12'>
                     <img src="https://i.ibb.co/ggQwWKK/Screenshot-2024-04-02-at-14-40-29-BD-Quick-School.png" alt="" />
