@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { ImCross } from "react-icons/im";
 import './Projects.css'
-import Slider from '../../Components/Project One/Slider';
+import Slider from '../../Components/Project One/Slider/Slider';
+import Description from '../../Components/Project One/Description/Description';
 
 
 
@@ -121,8 +122,11 @@ const Projects = () => {
                                     </div>
                                 </a>
                             </div>
-                            <div className='mt-14 pb-14'>
+                            <div className='mt-14 pb-7'>
                                 <Slider />
+                            </div>
+                            <div className='pb-10'>
+                                <Description />
                             </div>
                         </div>
 
