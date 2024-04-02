@@ -13,9 +13,14 @@ import './Slider.css'
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import { useState } from 'react';
 
 const Slider = () => {
-    
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const handleSlideChange = (swiper) => {
+        setActiveIndex(swiper.realIndex);
+    };
     return (
         <div>
             <Swiper
@@ -24,6 +29,7 @@ const Slider = () => {
                 pagination={{
                     clickable: true,
                 }}
+                onSlideChange={handleSlideChange}
                 modules={[Pagination]}
                 className="mySwiper"
                 breakpoints={{
