@@ -9,9 +9,6 @@ import './Slider.css'
 
 
 
-
-
-
 // import required modules
 import { Pagination } from 'swiper/modules';
 import { useState } from 'react';
