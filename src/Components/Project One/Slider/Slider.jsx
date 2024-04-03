@@ -55,7 +55,7 @@ const Slider = () => {
                     },
                 }}
             >
-                <SwiperSlide className='mb-12'>
+                <SwiperSlide className='mb-24 semi-sm:mb-20 md:mb-12'>
                     <img src="https://i.ibb.co/ggQwWKK/Screenshot-2024-04-02-at-14-40-29-BD-Quick-School.png" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
