@@ -42,7 +42,7 @@ const ProjectTwoCard = () => {
                 <img className="rounded" src="https://i.ibb.co/PhpNs2s/Screenshot-2024-04-03-at-13-55-33-Evergreen-Estates-Home.png" alt="" />
                 <div onClick={openModal} className={`project-info ${isHovered ? 'show' : ''}`}>
                     <div>
-                        <h1 className='xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3'>BD Quick School</h1>
+                        <h1 className='xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3'>Evergreen Estates</h1>
                         <p className='xs:text-sm sm:text-base font-lora semi-sm:mb-1 md:mb-0 lg:mb-2'>Project was about precision and information.</p>
                     </div>
                     <MdOutlineArrowOutward className={`xs:text-2xl semi-sm:text-3xl lg:text-4xl rotate-icon ${isHovered ? 'rotate-full' : ''}`} />
@@ -58,7 +58,7 @@ const ProjectTwoCard = () => {
                         <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]'>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
-                                    <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Bd Quick School</h1>
+                                    <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Evergreen Estates</h1>
                                     <p className='font-lora text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
                                 </div>
                                 <div className='lg:flex-1'>
@@ -69,23 +69,23 @@ const ProjectTwoCard = () => {
                                         </div>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Type</h3>
-                                            <p className='text-base font-lora font-medium'>Education Platform</p>
+                                            <p className='text-base font-lora font-medium'>Real Estates Platform</p>
                                         </div>
                                     </div>
-                                    <div className='flex flex-col semi-sm:flex-row md:items-center gap-7 lg:gap-[167px] mt-10'>
-                                        <div>
+                                    <div className='flex flex-col semi-sm:flex-row md:items-center gap-7 lg:gap-[147px] mt-10'>
+                                        <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Start Date</h3>
-                                            <p className='text-base font-lora font-medium'>January 20, 2024</p>
+                                            <p className='text-base font-lora font-medium'>November 23, 2023</p>
                                         </div>
-                                        <div>
+                                        <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>End Date</h3>
-                                            <p className='text-base font-lora font-medium'>March 10, 2024</p>
+                                            <p className='text-base font-lora font-medium'>November 30, 2023</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row md:items-center gap-5 md:gap-2 lg:gap-2 mt-10' style={{ whiteSpace: "nowrap" }}>
-                                <a href="https://quick-school-client.netlify.app/">
+                                <a href="https://evergreen-estates-assignment.web.app/">
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='text-sm lg:text-base font-lora font-semibold'>Live Preview</span>
@@ -93,7 +93,7 @@ const ProjectTwoCard = () => {
                                         </button>
                                     </div>
                                 </a>
-                                <a href="https://github.com/Shiham123/bd-quick-school-client" style={{ whiteSpace: "nowrap" }}>
+                                <a href="https://github.com/tonoy3125/Evergreen-Estates-client" style={{ whiteSpace: "nowrap" }}>
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='lg:text-base font-lora font-semibold'>Client-Side-Repo</span>
@@ -101,7 +101,7 @@ const ProjectTwoCard = () => {
                                         </button>
                                     </div>
                                 </a>
-                                <a href="https://github.com/Shiham123/bd-quick-school-server" style={{ whiteSpace: "nowrap" }}>
+                                <a href="https://github.com/tonoy3125/Evergreen-Estates-Server" style={{ whiteSpace: "nowrap" }}>
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='lg:text-base font-lora font-semibold'>Server-Side-Repo</span>
