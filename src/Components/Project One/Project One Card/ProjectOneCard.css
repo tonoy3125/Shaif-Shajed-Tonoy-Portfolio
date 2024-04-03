@@ -116,6 +116,7 @@
     background-size: 200% auto;
 }
 
+/* Button inner hover */
 .buttoninner:hover {
     background-position: right center;
 }
@@ -129,7 +130,7 @@
 
 
 
-/* Tablet Responsive Styles project info */
+/* Tablet 768px Responsive Styles project info */
 @media only screen and (max-width: 768px) {
     .project-info {
         width: auto;
@@ -141,7 +142,7 @@
 }
 
 
-/* Tablet Responsive Styles for modal */
+/* Tablet 768px Responsive Styles for modal */
 @media only screen and (max-width: 768px) {
     .modal-overlay {
         width: 100%;
@@ -156,7 +157,7 @@
     }
 }
 
-/* Tablet Responsive Styles for modal */
+/* Mobile 425px Responsive Styles for modal */
 @media only screen and (max-width: 425px) {
     .modal-overlay {
         width: 100%;
@@ -176,6 +177,7 @@
     }
 }
 
+/* Mobile 375px Responsive Styles for modal */
 @media only screen and (max-width: 375px) {
     .modal-overlay {
         width: 100%;
@@ -195,6 +197,7 @@
     }
 }
 
+/* Mobile 320px Responsive Styles for modal */
 @media only screen and (max-width: 320px) {
     .modal-overlay {
         width: 100%;
