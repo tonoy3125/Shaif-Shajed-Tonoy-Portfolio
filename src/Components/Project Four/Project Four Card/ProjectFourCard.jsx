@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import { ImCross } from "react-icons/im";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import Slider from "../Slider/Slider";
-import Description from "../Description/Description";
-import './ProjectThreeCard.css'
+import './ProjectFourCard.css'
 
 
-const ProjectThreeCard = () => {
+const ProjectFourCard = () => {
     const [isHovered, setIsHovered] = useState(false);
     const [modalOpen, setModalOpen] = useState(false);
 
@@ -32,6 +30,7 @@ const ProjectThreeCard = () => {
             closeModal();
         }
     };
+
     return (
         <div>
             <div className="relative xs:px-2 xs:pt-2 sm:px-3 pt-3 md:px-5 md:pt-5 lg:px-10 lg:pt-10 bg-[#070707] border border-[#353535] rounded-xl"
@@ -111,10 +110,10 @@ const ProjectThreeCard = () => {
                                 </a>
                             </div>
                             <div className='mt-14 pb-7'>
-                                <Slider />
+                                {/* <Slider /> */}
                             </div>
                             <div className='pb-10'>
-                                <Description />
+                                {/* <Description /> */}
                             </div>
                         </div>
 
@@ -125,4 +124,4 @@ const ProjectThreeCard = () => {
     );
 };
 
-export default ProjectThreeCard;
+export default ProjectFourCard;

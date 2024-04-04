@@ -1,3 +1,4 @@
+import ProjectFourCard from '../../Components/Project Four/Project Four Card/ProjectFourCard';
 import ProjectOneCard from '../../Components/Project One/Project One Card/ProjectOneCard';
 import ProjectThreeCard from '../../Components/Project Three/Project Three Card/ProjectThreeCard';
 import ProjectTwoCard from '../../Components/Project Two/Project Two Card/ProjectTwoCard';
@@ -15,6 +16,7 @@ const Projects = () => {
                     <ProjectOneCard />
                     <ProjectTwoCard />
                     <ProjectThreeCard />
+                    <ProjectFourCard />
                 </div>
             </div>
 
