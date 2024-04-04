@@ -3,6 +3,7 @@ import { ImCross } from "react-icons/im";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import './ProjectFourCard.css'
 import Slider from "../Slider/Slider";
+import Description from "../Description/Description";
 
 
 const ProjectFourCard = () => {
@@ -114,7 +115,7 @@ const ProjectFourCard = () => {
                                 <Slider />
                             </div>
                             <div className='pb-10'>
-                                {/* <Description /> */}
+                                <Description />
                             </div>
                         </div>
 
