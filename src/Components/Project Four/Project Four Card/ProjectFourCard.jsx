@@ -38,10 +38,10 @@ const ProjectFourCard = () => {
                 onMouseLeave={() => setIsHovered(false)}
 
             >
-                <img className="rounded" src="https://i.ibb.co/w0SYmt3/Screenshot-2024-04-03-at-20-05-25-Job-Recruiter-Home.png" alt="" />
+                <img className="rounded" src="https://i.ibb.co/ccW00Y1/Screenshot-2024-04-04-at-13-33-34-Rimberio-Automotive.png" alt="" />
                 <div onClick={openModal} className={`project-info ${isHovered ? 'show' : ''}`}>
                     <div>
-                        <h1 className='xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3'>Job Recruiter</h1>
+                        <h1 className='xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3'>Rimberio Automotive</h1>
                         <p className='xs:text-sm sm:text-base font-lora semi-sm:mb-1 md:mb-0 lg:mb-2'>Project was about precision and information.</p>
                     </div>
                     <MdOutlineArrowOutward className={`xs:text-2xl semi-sm:text-3xl lg:text-4xl rotate-icon ${isHovered ? 'rotate-full' : ''}`} />
@@ -53,7 +53,7 @@ const ProjectFourCard = () => {
                     <div className="modal-content">
                         <span className={`modal-close ${modalOpen ? 'rotate' : ''}`} onClick={closeModal}><ImCross /></span>
                         {/* Modal content */}
-                        <img className='sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[35px]' src="https://i.ibb.co/k8q3D30/Screenshot-2024-04-03-at-20-05-25-Job-Recruiter-Home.png" alt="" />
+                        <img className='sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[35px]' src="https://i.ibb.co/z4bksRM/Screenshot-2024-04-04-at-13-33-34-Rimberio-Automotive.png" alt="" />
                         <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]'>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
