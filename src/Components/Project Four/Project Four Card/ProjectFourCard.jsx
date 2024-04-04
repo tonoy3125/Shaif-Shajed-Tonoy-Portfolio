@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react";
 import { ImCross } from "react-icons/im";
 import { MdOutlineArrowOutward } from "react-icons/md";
