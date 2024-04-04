@@ -1,0 +1,18 @@
+.service-card {
+    background-color: #292828;
+    border: 1px solid #353535;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    border-color: #c9f31d;
+}
+
+.service-card:hover .icon-container {
+    background-color: #c9f31d;
+}
+
+.service-card:hover .icon-container .icon {
+    color: #131313;
+}
