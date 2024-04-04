@@ -57,28 +57,28 @@ const ProjectFourCard = () => {
                         <div className='bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]'>
                             <div className='flex flex-col md:flex-row items-center gap-7 lg:gap-20'>
                                 <div className='lg:flex-1 mt-10'>
-                                    <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Job Recruiter</h1>
+                                    <h1 className='xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5' style={{ whiteSpace: "nowrap" }}>Rimberio Automotive</h1>
                                     <p className='font-lora text-base text-[#0f0715] font-medium'>They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.</p>
                                 </div>
                                 <div className='lg:flex-1'>
-                                    <div className='flex flex-col md:flex-row  sm:pr-[40px] semi-sm:pr-[80px] md:pr-0 md:items-center gap-5 lg:gap-40 mt-10'>
+                                    <div className='flex flex-col md:flex-row xs:pr-[80px] sm:pr-[122px] semi-sm:pr-[165px] md:pr-0 md:items-center gap-5 lg:gap-40 mt-10'>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Category</h3>
                                             <p className='text-base font-lora font-medium'>Full Stack  Project</p>
                                         </div>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Type</h3>
-                                            <p className='text-base font-lora font-medium'>CareerHub Connect Platform</p>
+                                            <p className='text-base font-lora font-medium'>Brand Car Shop</p>
                                         </div>
                                     </div>
-                                    <div className='flex flex-col md:flex-row md:items-center gap-7 lg:gap-[147px] mt-10'>
+                                    <div className='flex flex-col md:flex-row md:items-center gap-7 lg:gap-[168px] mt-10'>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>Start Date</h3>
-                                            <p className='text-base font-lora font-medium'>November 04, 2023</p>
+                                            <p className='text-base font-lora font-medium'>Octobar 17, 2023</p>
                                         </div>
                                         <div style={{ whiteSpace: "nowrap" }}>
                                             <h3 className='text-base font-poppins'>End Date</h3>
-                                            <p className='text-base font-lora font-medium'>November 09, 2023</p>
+                                            <p className='text-base font-lora font-medium'>Octobar 21, 2023</p>
                                         </div>
                                     </div>
                                 </div>
