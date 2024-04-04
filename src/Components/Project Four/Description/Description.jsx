@@ -3,7 +3,7 @@
 const Description = () => {
     return (
         <div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
+            <h1 className="xs:text-2xl sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
             <div className="flex flex-wrap items-center font-lora font-medium">
                 <div className="w-full md:w-1/4 lg:w-1/4 mb-4 md:mb-0">
                     <ul className="list-disc ml-4">
@@ -33,9 +33,9 @@ const Description = () => {
                     </ul>
                 </div>
             </div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
             <p className="text-base font-lora font-medium ">Rimberio Automotive is an online platform where you can buy and sell brand cars and car parts. Whether you're looking to upgrade your vehicle or find parts for repairs, Rimberio Automotive makes the process easy and convenient. Browse through a wide selection of brand cars and parts, all in one place. Sellers can list their cars and parts for sale, reaching a wide audience of potential buyers. Buyers can explore various options and make purchases securely through the platform. With user-friendly features and straightforward navigation, Rimberio Automotive simplifies the car buying and selling experience for everyone. Whether you're a car enthusiast or just in need of a reliable vehicle, Rimberio Automotive has something for you.</p>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
             <ul className="font-lora">
                 <ul className="list-disc pl-5">
                     <li><strong>Navigation Bar:</strong>

@@ -3,7 +3,7 @@
 const Description = () => {
     return (
         <div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
+            <h1 className="xs:text-2xl sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
             <div className="flex flex-wrap items-center font-lora font-medium">
                 <div className="w-full md:w-1/4 lg:w-1/4 mb-4 md:mb-0">
                     <ul className="list-disc ml-4">
@@ -33,9 +33,9 @@ const Description = () => {
                     </ul>
                 </div>
             </div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
             <p className="text-base font-lora font-medium ">Job Recruiter is an online platform designed for job seekers and employers alike. It offers a simple and efficient way to find jobs and post job listings. Job seekers can browse through various job opportunities and submit bids for the ones that match their skills and interests. Meanwhile, employers can easily add job listings and connect with potential candidates. The platform streamlines the job search process, making it accessible and straightforward for everyone involved. Whether you're looking for your next career move or seeking to fill a vacant position, CareerHub Connect provides a user-friendly solution for all your job-related needs.</p>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
             <ul className="font-lora">
                 <ul className="list-disc pl-5">
                     <li><strong>Navigation Bar:</strong>

@@ -4,7 +4,7 @@
 const Description = () => {
     return (
         <div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
+            <h1 className="xs:text-2xl sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Technology</h1>
             <div className="flex flex-wrap items-center font-lora font-medium">
                 <div className="w-full md:w-1/3 lg:w-1/6 mb-4 md:mb-0">
                     <ul className="list-disc ml-4">
@@ -44,9 +44,9 @@ const Description = () => {
                     </ul>
                 </div>
             </div>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Project Description</h1>
             <p className="text-base font-lora font-medium ">Evergreen Estate helps people buy, sell, and rent homes. There are three main roles: users, agents, and admins. Agents help users with their transactions, giving them advice and support. Admins control everything, managing users and agents to keep things running smoothly. Whether you want to sell your home or find a place to rent, Evergreen Estate has an easy-to-use website and lots of useful features to help you. By putting buying, selling, and renting all in one place, Evergreen Estate makes real estate simple for everyone involved. It's a trusted website that people rely on when they're dealing with homes.</p>
-            <h1 className="text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
+            <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">Unique Features</h1>
             <ul className="font-lora">
                 <ul className="list-disc pl-5">
                     <li><strong>Navbar 🚀:</strong>
