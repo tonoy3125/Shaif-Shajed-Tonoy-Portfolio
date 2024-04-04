@@ -84,7 +84,7 @@ const ProjectFourCard = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col md:flex-row md:items-center gap-5 md:gap-2 lg:gap-2 mt-10' style={{ whiteSpace: "nowrap" }}>
-                                <a href="https://job-recruiter-assignment.web.app/">
+                                <a href="https://rimberio-automotive-assignment.web.app/">
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='text-sm lg:text-base font-lora font-semibold'>Live Preview</span>
@@ -92,7 +92,7 @@ const ProjectFourCard = () => {
                                         </button>
                                     </div>
                                 </a>
-                                <a href="https://github.com/tonoy3125/Job-Recruiter-Client" style={{ whiteSpace: "nowrap" }}>
+                                <a href="https://github.com/tonoy3125/rimberio-automotive-Client" style={{ whiteSpace: "nowrap" }}>
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='lg:text-base font-lora font-semibold'>Client-Side-Repo</span>
@@ -100,7 +100,7 @@ const ProjectFourCard = () => {
                                         </button>
                                     </div>
                                 </a>
-                                <a href="https://github.com/tonoy3125/Job-Recruiter-Server" style={{ whiteSpace: "nowrap" }}>
+                                <a href="https://github.com/tonoy3125/rimberio-automotive-Server" style={{ whiteSpace: "nowrap" }}>
                                     <div className='buttonContainer'>
                                         <button className='flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full '>
                                             <span className='lg:text-base font-lora font-semibold'>Server-Side-Repo</span>
