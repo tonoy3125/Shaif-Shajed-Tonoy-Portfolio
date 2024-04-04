@@ -3,9 +3,9 @@ import './Service.css'
 
 const Service = () => {
     return (
-        <div className="max-w-7xl mx-auto pb-10 pt-10">
+        <div className="max-w-7xl mx-auto pb-16 pt-16">
             <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">Popular Services</h5>
-            <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins mb-10"><span className="text-[#fff]">My</span> <span className="text-[#c9f31d]">Special Service</span></h1>
+            <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins mb-14"><span className="text-[#fff]">My</span> <span className="text-[#c9f31d]">Special Service</span></h1>
             <div className="flex flex-col lg:flex-row items-center gap-5 mb-5 ">
                 <div className="flex flex-col md:flex-row items-start md:items-center gap-10 md:gap-[135px] lg:gap-28 xs:w-[300px] sm:w-[350px] semi-sm:w-[400px] md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex flex-col md:flex-row items-start gap-5 md:gap-16">
