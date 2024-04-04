@@ -3,10 +3,12 @@ import './Service.css'
 
 const Service = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto pb-10 pt-10">
+            <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">Popular Services</h5>
+            <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins mb-10"><span className="text-[#fff]">My</span> <span className="text-[#c9f31d]">Special Service</span></h1>
             <div className="flex items-center gap-5 mb-5">
                 <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
-                    <div className="flex items-start gap-10">
+                    <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">01</p>
                         <div>
                             <h1 className="text-white text-2xl font-lora font-semibold mb-2" >Custom Web Applications</h1>
