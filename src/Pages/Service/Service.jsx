@@ -6,8 +6,8 @@ const Service = () => {
         <div className="max-w-7xl mx-auto pb-10 pt-10">
             <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">Popular Services</h5>
             <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins mb-10"><span className="text-[#fff]">My</span> <span className="text-[#c9f31d]">Special Service</span></h1>
-            <div className="flex items-center gap-5 mb-5">
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+            <div className="flex flex-col lg:flex-row items-center gap-5 mb-5 ">
+                <div className="flex items-center gap-[135px] lg:gap-28 md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">01</p>
                         <div>
@@ -19,7 +19,7 @@ const Service = () => {
                         <FiArrowUpRight className="text-white hover:text-[#131313] text-2xl icon" />
                     </div>
                 </div>
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+                <div className="flex items-center gap-32 lg:gap-28 md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">02</p>
                         <div>
@@ -32,8 +32,8 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center gap-5 mb-5">
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+            <div className="flex flex-col lg:flex-row  items-center gap-5 mb-5">
+                <div className="flex items-center gap-[135px] lg:gap-28  md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">03</p>
                         <div>
@@ -45,7 +45,7 @@ const Service = () => {
                         <FiArrowUpRight className="text-white hover:text-[#131313] text-2xl icon" />
                     </div>
                 </div>
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+                <div className="flex items-center gap-[130px] lg:gap-28 md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">04</p>
                         <div>
@@ -58,8 +58,8 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center gap-5">
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+            <div className="flex flex-col lg:flex-row  items-center gap-5">
+                <div className="flex items-center gap-[130px] lg:gap-28 md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">05</p>
                         <div>
@@ -71,7 +71,7 @@ const Service = () => {
                         <FiArrowUpRight className="text-white hover:text-[#131313] text-2xl icon" />
                     </div>
                 </div>
-                <div className="flex items-center gap-28 w-[630px] px-5 py-10 service-card">
+                <div className="flex items-center gap-[130px] lg:gap-28 md:w-[700px] lg:w-[630px] px-5 py-10 service-card">
                     <div className="flex items-start gap-16">
                         <p className="text-2xl font-semibold font-poppins text-white">06</p>
                         <div>
