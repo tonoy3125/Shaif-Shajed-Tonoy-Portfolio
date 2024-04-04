@@ -20,7 +20,7 @@ const Contact = () => {
 
 
     return (
-        <div className="max-w-7xl mx-auto mt-24 mb-20">
+        <div id="contact" className="max-w-7xl mx-auto mt-24 mb-20">
             <div className="flex items-start flex-col lg:flex-row gap-20 xs:ml-4 sm:ml-5 semi-sm:ml-5 lg:ml-0">
                 <div>
                     <h5 className="text-base font-poppins font-medium text-[#b1b1b1] mb-5">Get In Touch</h5>

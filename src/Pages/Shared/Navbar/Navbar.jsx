@@ -99,15 +99,11 @@ const Navbar = () => {
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] underline" : ""
                         } to="/">Home</NavLink></li>
-                        <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? " text-[#c9f31d] font-bold underline" : ""
-                        } to="/projects">Projects</NavLink></li>
+                        <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><a href="/#projects">Projects</a></li>
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "font-bold text-gray-50 underline" : ""
                         } to="/blog">Blog</NavLink></li>
-                        <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "font-bold text-gray-50 underline" : ""
-                        } to="/contact">Contact</NavLink></li>
+                        <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><a href="/#contact">Contact</a></li>
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "font-bold text-gray-50 underline" : ""
                         } to="/about">About</NavLink></li>
