@@ -11,11 +11,11 @@ const FaqAccordionMain = () => {
 
     return (
         <div className='max-w-7xl mx-auto pt-10 pb-10'>
-            <div className='flex items-center gap-16'>
-                <div className='flex-1'>
+            <div className='flex flex-col lg:flex-row items-center gap-16'>
+                <div className='xs:w-[300px] sm:w-[350px] semi-sm:w-[400px] md:w-[570px] lg:w-0 lg:flex-1'>
                     <img className='rounded-2xl' src="https://i.ibb.co/Hg8p73y/Blue-Dots-Birthday-Photo-Collage-2.png" alt="" />
                 </div>
-                <div className='flex-1 font-lora'>
+                <div className='lg:flex-1 font-lora'>
                     <div className="accordion">
                         <div className={`accordion-item ${activeIndex === 1 ? 'active' : ''}`} onClick={() => toggleAccordion(1)}>
                             <div className="accordion-title "><span className='accordian-inner'>{activeIndex === 1 ? <MdKeyboardArrowDown className='text-black text-xl' /> : <MdOutlineKeyboardArrowRight className='text-black text-xl' />}</span> <span>What is your professional background and experience?</span></div>
