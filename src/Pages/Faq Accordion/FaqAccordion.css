@@ -51,3 +51,32 @@
     padding-bottom: 25px;
     font-size: 14px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    
+
+    .accordion {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .accordion-title {
+        font-size: 14px;
+        /* align-items: start; */
+
+    }
+
+    .accordion {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .accordion-content{
+        font-size: 12px;
+    }
+}
