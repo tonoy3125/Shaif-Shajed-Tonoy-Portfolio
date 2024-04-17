@@ -9,10 +9,35 @@ body {
     background-image: linear-gradient(to right, rgba(243, 236, 236, 0.1) 1px, transparent 1px);
     background-size: calc(100% / 9) 100%;
     /* Adjust scratch line width */
-    /* Adjust scratch line width */
+    animation: scratch-left 120s linear infinite alternate;
+    /* Animation from left to right with increased duration */
 }
 
+/* Define animation from left to right */
+@keyframes scratch-left {
+    from {
+        background-position: 0 0;
+        /* Start from left */
+    }
 
+    to {
+        background-position: 100% 0;
+        /* Move to right */
+    }
+}
+
+/* Define animation from right to left */
+@keyframes scratch-right {
+    from {
+        background-position: 100% 0;
+        /* Start from right */
+    }
+
+    to {
+        background-position: 0 0;
+        /* Move to left */
+    }
+}
 
 /* Media query for screens 768px and above */
 @media (max-width: 768px) {

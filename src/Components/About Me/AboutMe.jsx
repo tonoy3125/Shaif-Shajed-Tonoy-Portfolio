@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <div className="flex flex-col lg:flex-row gap-20">
                     <div className="xs:mx-3 sm:mx-5 semi-sm:mx-5 md:mx-10 lg:mx-0">
                         <h5 className="text-base font-medium text-white/50  mb-5 font-poppins">About Me</h5>
-                        <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium   font-poppins"><span className="text-[#fff]">Professional</span> <span className="text-[#c9f31d]">Problem Solutions </span>
+                        <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium   font-poppins" style={{ lineHeight: '1.2' }}><span className="text-[#fff]">Professional</span> <span className="text-[#c9f31d]">Problem Solutions </span>
                             <span className="text-[#fff]">For Digital Products</span></h1>
                         <p className="text-base text-[#b1b1b1] font-poppins mt-7">At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum corrupti quos dolores quas molestias excepturi sint occaecati cupiditate provident qui officia deserunt mollitia animi, id est laborum et dolorum</p>
                         <div className="flex flex-col md:flex-row md:items-center gap-3 semi-sm:gap-5 md:gap-28 lg:gap-40 mt-5 semi-sm:mt-5 md:mt-7">

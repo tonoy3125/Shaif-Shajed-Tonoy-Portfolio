@@ -11,12 +11,12 @@ const FaqAccordionMain = () => {
 
     return (
         <div className='max-w-7xl mx-auto pt-20 pb-20'>
-            <div className='flex flex-col lg:flex-row lg:items-center gap-16'>
+            <div className='flex flex-col lg:flex-row  gap-16'>
                 <div className='xs:w-[300px] sm:w-[350px] semi-sm:w-[400px] md:w-[570px] mx-auto lg:w-0 lg:flex-1'>
                     <img className='rounded-2xl' src="https://i.ibb.co/Hg8p73y/Blue-Dots-Birthday-Photo-Collage-2.png" alt="" />
                 </div>
                 <div className='lg:flex-1 font-lora'>
-                    <h1 className="mx-2 md:mx-0 text-center lg:text-start text-2xl  md:text-4xl lg:text-[44px] font-medium  mb-10 font-poppins"><span className="text-[#fff]">Professional Solutions For Your</span> <span className="text-[#c9f31d]">Digital Product </span> <span className="text-[#fff]">Design and development</span></h1>
+                    <h1 className="mx-2 md:mx-0 text-center lg:text-start text-2xl  md:text-4xl lg:text-[44px] font-medium  mb-10 font-poppins" style={{ lineHeight: '1.2' }}><span className="text-[#fff]">Professional Solutions For Your</span> <span className="text-[#c9f31d]">Digital Product </span> <span className="text-[#fff]">Design and development</span></h1>
                     <div className="accordion">
                         <div className={`accordion-item ${activeIndex === 1 ? 'active' : ''}`} onClick={() => toggleAccordion(1)}>
                             <div className="accordion-title "><span className='accordian-inner'>{activeIndex === 1 ? <MdKeyboardArrowDown className='text-black text-xl' /> : <MdOutlineKeyboardArrowRight className='text-black text-xl' />}</span> <span>What is your professional background and experience?</span></div>
