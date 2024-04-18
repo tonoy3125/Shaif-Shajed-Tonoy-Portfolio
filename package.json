@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@lottiefiles/react-lottie-player": "^3.5.3",
+    "aos": "^2.3.4",
     "jquery": "^3.7.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
