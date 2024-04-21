@@ -1,0 +1,15 @@
+.card-container {
+    position: relative;
+    /* Ensure the container's position context for absolutely positioned elements */
+}
+
+.card-container:hover img {
+    transform: scale(1.05);
+    
+    /* Scale up the image slightly on hover */
+}
+
+.card-container img {
+    transition: transform 0.3s ease-in-out;
+    /* Add transition for smooth zoom effect */
+}

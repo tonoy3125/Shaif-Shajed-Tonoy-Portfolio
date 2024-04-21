@@ -1,5 +1,6 @@
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { FaCalendarAlt } from "react-icons/fa";
+import './Blog.css'
 
 
 const Blog = () => {
@@ -9,7 +10,7 @@ const Blog = () => {
                 <h5 className="text-base font-medium text-white/50 text-center mb-5 font-poppins">New & Blog</h5>
                 <h1 className="text-2xl sm:text-3xl semi-sm:text-4xl md:text-5xl font-medium text-center px-2 font-poppins mb-20"><span className="text-[#fff]">Latest News & </span> <span className="text-[#c9f31d]">Blog</span></h1>
                 <div className="grid md:grid-cols-2 gap-7">
-                    <div className="border border-[#353535] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10">
+                    <div className="border border-[#353535] hover:border-[#c9f31d] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10 card-container">
                         <div className="">
                             <img className="max-w-60 h-56 rounded-[10px] object-cover" src="https://i.ibb.co/XypBGfh/blog-09-min-768x417.jpg" alt="" />
                         </div>
@@ -24,7 +25,7 @@ const Blog = () => {
                         </div>
 
                     </div>
-                    <div className="border border-[#353535] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10">
+                    <div className="border border-[#353535] hover:border-[#c9f31d] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10 card-container">
                         <div className="">
                             <img className="max-w-60 h-56 rounded-[10px] object-cover" src="https://i.ibb.co/R3CjrSj/blog-02-min-768x417.jpg" alt="" />
                         </div>
@@ -39,7 +40,7 @@ const Blog = () => {
                         </div>
 
                     </div>
-                    <div className="border border-[#353535] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10">
+                    <div className="border border-[#353535] hover:border-[#c9f31d] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10 card-container">
                         <div className="">
                             <img className="max-w-60 h-56 rounded-[10px] object-cover" src="https://i.ibb.co/rcBrmXC/blog-04-min-768x417.jpg" alt="" />
                         </div>
@@ -54,7 +55,7 @@ const Blog = () => {
                         </div>
 
                     </div>
-                    <div className="border border-[#353535] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10">
+                    <div className="border border-[#353535] hover:border-[#c9f31d] bg-[#292828] w-[630px] rounded-[15px] flex items-center gap-10 pl-2 pt-2 pb-2 pr-10 card-container">
                         <div className="">
                             <img className="max-w-60 h-56 rounded-[10px] object-cover" src="https://i.ibb.co/gF38mtp/blog-05-min-768x417.jpg" alt="" />
                         </div>
