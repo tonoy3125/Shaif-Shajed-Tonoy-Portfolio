@@ -25,7 +25,7 @@ const Contact = () => {
                 <div>
                     <h5 className="text-base font-poppins font-medium text-[#b1b1b1] mb-5">Get In Touch</h5>
                     <h1 className="font-poppins text-3xl sm:text-4xl lg:text-[45px] font-medium mb-12 " style={{ lineHeight: '1.2' }}><span className="text-[#fff]">Let’s Talk For your</span> <br className="lg:block md:hidden" /><span className="text-[#c9f31d]">Next Projects</span></h1>
-                    <p className="text-base text-[#b1b1b1] font-poppins lg:w-[400px] sm:mr-1 semi-sm:mr-0" style={{ lineHeight: '1.7' }}>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis</p>
+                    <p className="text-base text-[#b1b1b1] font-poppins lg:w-[400px] sm:mr-1 semi-sm:mr-0" style={{ lineHeight: '1.7' }}>Open dialogue for your next ventures and collaborate on innovative projects for future success. Let's discuss and create together.</p>
                     <div className="flex items-center gap-5 mt-10 mb-7">
                         <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
                             <IoCheckmarkSharp className="text-xl" />
