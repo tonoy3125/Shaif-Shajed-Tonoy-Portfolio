@@ -29,7 +29,7 @@ const Footer = () => {
                                     <p className="text-sm font-poppins font-medium text-[#b1b1b1]">Faqs</p>
                                     <p className="text-sm font-poppins font-medium text-[#b1b1b1]">Contact</p>
                                 </div>
-                                <div className="flex items-center font-lora gap-5 ">
+                                <div className="flex items-center font-lora gap-3 sm:gap-5 ">
                                     <div className="relative z-0 w-full mb-5 group">
                                         <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 semi-sm:w-56 md:w-96 text-base text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 outline-none" placeholder=" Email Address" required />
                                     </div>
