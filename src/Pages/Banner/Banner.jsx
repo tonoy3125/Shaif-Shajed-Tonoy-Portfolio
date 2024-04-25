@@ -1,12 +1,26 @@
+import React, { useState, useEffect } from 'react';
+import { MdKeyboardArrowRight } from 'react-icons/md';
+import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
-import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Banner = () => {
+    const [animate, setAnimate] = useState(false);
+
+    useEffect(() => {
+        // Trigger animation on component mount
+        setAnimate(true);
+    }, []);
+
     return (
-        <div className='lg:px-20'>
+        <div className='lg:px-20 overflow-hidden'>
             <div className="flex items-center px-5 flex-col md:flex-row mt-10 mb-10 xs:gap-5 md:gap-7 lg:gap-0">
                 {/* Heading */}
-                <div className="">
+                <motion.div
+                    className=""
+                    initial={false}
+                    animate={animate ? { x: 0 } : { x: -1000 }} // Animate from left
+                    transition={{ duration: 2 }}
+                >
                     <h1 className="text-[#FFFFFF59] sm:text-xl semi-sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-5 font-cinzel">Hello, i’m</h1>
                     <h1 className="text-[#c9f31d] font-bold sm:text-xl semi-sm:text-2xl md:text-3xl lg:text-5xl mb-4 font-cinzel" style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
                     <h1 className="text-[#fff] md:text-xl lg:text-3xl font-bold mb-4 font-lora">Junior MERN-Stack-Developer</h1>
@@ -16,16 +30,25 @@ const Banner = () => {
                         <button className=" sm:px-5 sm:py-2 lg:px-7 lg:py-3  flex items-center text-white  font-lora font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Download Resume
                         </span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
                     </div>
-                </div>
+                </motion.div>
                 {/* Image */}
-                <div className=" block md:hidden lg:block">
-                    <img className=" sm:w-full md:w-3/4 semi-sm:mx-auto md:mx-0" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
-                </div>
+                <motion.div
+                    className="block md:hidden lg:block"
+                    initial={false}
+                    animate={animate ? { y: 0 } : { y: -1000 }} // Animate from top
+                    transition={{ duration: 2 }}
+                >
+                    <img className="sm:w-full md:w-3/4 semi-sm:mx-auto md:mx-0" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
+                </motion.div>
                 {/* Stats */}
-                <div className=" p-10 xs:w-72 sm:w-80 semi-sm:w-96 md:w-72 bg-[#070707] rounded-xl">
+                <motion.div
+                    className="p-10 xs:w-72 sm:w-80 semi-sm:w-96 md:w-72 bg-[#070707] rounded-xl"
+                    initial={false}
+                    animate={animate ? { x: 0 } : { x: 1000 }} // Animate from right
+                    transition={{ duration: 2 }}
+                >
                     <div>
                         <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={13} duration={2} />+</h3>
-
                         <p className="text-[#b1b1b1] text-base font-lora font-normal ">Years Of Experience</p>
                     </div>
                     <hr className="mt-5 mb-5" />
@@ -38,10 +61,17 @@ const Banner = () => {
                         <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={99} duration={3} />%</h3>
                         <p className="text-[#b1b1b1] text-base font-lora font-normal">Client Satisfactions</p>
                     </div>
-                </div>
+                </motion.div>
             </div>
             <div className="hidden md:block lg:hidden">
-                <img className="w-3/4 mx-auto" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
+                <motion.img
+                    className="w-3/4 mx-auto"
+                    initial={false}
+                    animate={animate ? { y: 0 } : { y: -1000 }} // Animate from top
+                    transition={{ duration: 2 }}
+                    src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png"
+                    alt=""
+                />
             </div>
         </div>
     );
