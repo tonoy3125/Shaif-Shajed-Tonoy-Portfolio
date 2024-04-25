@@ -35,7 +35,7 @@ const Banner = () => {
                 <motion.div
                     className="block md:hidden lg:block"
                     initial={false}
-                    animate={animate ? { y: 0 } : { y: -1000 }} // Animate from top
+                    animate={animate ? { y: 0 } : { y: -100 }} // Animate from top
                     transition={{ duration: 2 }}
                 >
                     <img className="sm:w-full md:w-3/4 semi-sm:mx-auto md:mx-0" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
@@ -67,7 +67,7 @@ const Banner = () => {
                 <motion.img
                     className="w-3/4 mx-auto"
                     initial={false}
-                    animate={animate ? { y: 0 } : { y: -1000 }} // Animate from top
+                    animate={animate ? { y: 0 } : { y: -100 }} // Animate from top
                     transition={{ duration: 2 }}
                     src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png"
                     alt=""
