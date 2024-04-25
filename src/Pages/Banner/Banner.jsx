@@ -1,24 +1,47 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
 
 const Banner = () => {
-    const [animate, setAnimate] = useState(false);
+    const [visible, setVisible] = useState(false);
+    const bannerRef = useRef(null);
 
     useEffect(() => {
-        // Trigger animation on component mount
-        setAnimate(true);
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    // Trigger animation when the banner section is in view
+                    setVisible(true);
+                }
+            },
+            {
+                root: null,
+                rootMargin: '0px',
+                // threshold: 0.5, // Trigger when 50% of the element is visible
+            }
+        );
+
+        if (bannerRef.current) {
+            observer.observe(bannerRef.current);
+        }
+
+        // Cleanup
+        return () => {
+            if (bannerRef.current) {
+                observer.unobserve(bannerRef.current);
+            }
+        };
     }, []);
 
     return (
-        <div className='lg:px-20 overflow-hidden'>
+        <div ref={bannerRef} className='lg:px-20 overflow-hidden'>
             <div className="flex items-center px-5 flex-col md:flex-row mt-10 mb-10 xs:gap-5 md:gap-7 lg:gap-0">
                 {/* Heading */}
                 <motion.div
                     className=""
                     initial={false}
-                    animate={animate ? { x: 0 } : { x: -1000 }} // Animate from left
+                    animate={visible ? { x: 0 } : { x: -200 }} // Animate from left
                     transition={{ duration: 2 }}
                 >
                     <h1 className="text-[#FFFFFF59] sm:text-xl semi-sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-5 font-cinzel">Hello, i’m</h1>
@@ -35,7 +58,7 @@ const Banner = () => {
                 <motion.div
                     className="block md:hidden lg:block"
                     initial={false}
-                    animate={animate ? { y: 0 } : { y: -100 }} // Animate from top
+                    animate={visible ? { y: 0 } : { y: -100 }} // Animate from top
                     transition={{ duration: 2 }}
                 >
                     <img className="sm:w-full md:w-3/4 semi-sm:mx-auto md:mx-0" src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png" alt="" />
@@ -44,7 +67,7 @@ const Banner = () => {
                 <motion.div
                     className="p-10 xs:w-72 sm:w-80 semi-sm:w-96 md:w-72 bg-[#070707] rounded-xl"
                     initial={false}
-                    animate={animate ? { x: 0 } : { x: 1000 }} // Animate from right
+                    animate={visible ? { x: 0 } : { x: 200 }} // Animate from right
                     transition={{ duration: 2 }}
                 >
                     <div>
@@ -67,7 +90,7 @@ const Banner = () => {
                 <motion.img
                     className="w-3/4 mx-auto"
                     initial={false}
-                    animate={animate ? { y: 0 } : { y: -100 }} // Animate from top
+                    animate={visible ? { y: 0 } : { y: -100 }} // Animate from top
                     transition={{ duration: 2 }}
                     src="https://i.ibb.co/fCnqG28/Black-Simple-Bold-Professional-Twitter-Profile-Picture-1.png"
                     alt=""
