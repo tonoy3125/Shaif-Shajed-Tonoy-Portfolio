@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useRef, useState } from 'react';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import './Service.css';

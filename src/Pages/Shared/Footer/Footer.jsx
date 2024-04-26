@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Player } from "@lottiefiles/react-lottie-player";
 import { useEffect, useRef, useState } from "react";
 import { CiLocationOn } from "react-icons/ci";

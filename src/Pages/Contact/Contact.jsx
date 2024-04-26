@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { IoCheckmarkSharp } from "react-icons/io5";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import emailjs from '@emailjs/browser';

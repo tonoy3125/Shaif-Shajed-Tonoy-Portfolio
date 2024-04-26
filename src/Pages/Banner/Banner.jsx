@@ -1,4 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react-hooks/exhaustive-deps */
+
+import { useState, useEffect, useRef } from 'react';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
