@@ -82,6 +82,56 @@ const Certificate = () => {
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
                         </SwiperSlide>
                         <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/Lvq2NY8/Certificate-Of-Completion-Learning-REST-APIs-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Learning REST APIs</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/LxFVWH7/Certificate-Of-Completion-No-SQL-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>NoSQL Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jRR5tqR/Certificate-Of-Completion-SQL-Essential-Training-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>SQL Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/MR6xw2s/Certificate-Of-Completion-Programming-Foundations-Software-Testing-QA-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Software Testing</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/4fDZF5T/Certificate-Of-Completion-Learning-ECMAScript-6-ES6-2-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>ECMAScript 6+ (ES6+)</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/vQt2wcp/Certificate-Of-Completion-Node-js-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Node.js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/hddwHTp/Certificate-Of-Completion-React-js-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>React.js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jDDzB1H/Certificate-Of-Completion-Java-Script-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/t4R1WLX/Certificate-Of-Completion-Git-Essential-Training-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Git Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/YbJ7RwV/Certificate-Of-Completion-Search-Techniques-for-Web-Developers-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Search Techniques</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/KrxMJ31/Certificate-Of-Completion-Hands-On-Projects-for-Open-AIPowered-Apps-1-1.png" alt="" />
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>OpenAI-Powered Apps</h3>
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
@@ -114,6 +164,11 @@ const Certificate = () => {
                         <SwiperSlide>
                             <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/PTKnSJG/Certificate-Of-Completion-Hands-On-Open-AI-API-Building-a-Real-World-Solution-1.png" alt="" />
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On OpenAI API</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/wKZsPPw/Certificate-Of-Completion-Getting-Handson-with-GPT4-Tips-and-Tricks-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>AI Tips and Tricks</h3>
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
                         </SwiperSlide>
                         <SwiperNavButton />
