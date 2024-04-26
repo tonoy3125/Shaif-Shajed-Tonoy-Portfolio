@@ -13,8 +13,8 @@ const Certificate = () => {
 
     return (
         <div className="container mx-auto py-20">
-            <div className=" flex flex-col lg:flex-row items-center max-w-7xl lg:ml-28 gap-10 ">
-                <div>
+            <div className=" flex flex-col lg:flex-row max-w-7xl lg:ml-28 gap-10 ">
+                <div className='pl-6'>
                     <h1 style={{ letterSpacing: '0.2em' }} className='text-white text-2xl sm:text-3xl semi-sm:text-4xl md:text-4xl font-poppins font-bold mb-3'>Check Out</h1>
                     <h1 className='text-white md:text-4xl font-poppins font-bold mb-7'>My Certificate</h1>
                     <p className='text-white font-lora text-base w-96'>I have done various programmimg courses to increase my programming skills and i'm sharing few of them</p>
@@ -44,7 +44,26 @@ const Certificate = () => {
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
                         </SwiperSlide>
-                        
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/59vkZ5m/Certificate-Of-Completion-Python-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Python Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/j6pXNbV/Certificate-Of-Completion-Flutter-Essential-Training-Build-for-Multiple-Platforms-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Flutter Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/xfW322M/Certificate-Of-Completion-Dev-Ops-Foundations-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>DevOps Foundations</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/KrxMJ31/Certificate-Of-Completion-Hands-On-Projects-for-Open-AIPowered-Apps-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>OpenAI-Powered Apps</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
                         <SwiperNavButton />
                     </Swiper>
                 </div>
