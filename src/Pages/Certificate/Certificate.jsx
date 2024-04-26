@@ -25,7 +25,7 @@ const Certificate = () => {
                 </div>
                 {/* <img className="w-[550px] hidden lg:block animate-up-and-down overflow-hidden" src="https://i.ibb.co/8xTD1R5/feedback-six.png" alt="" /> */}
                 {/* slider */}
-                <div className="lg:w-3/5 w-full px-3 md:px-5 lg:px-0">
+                <div className="lg:w-3/5 w-full px-5 md:px-5 lg:px-0">
 
                     <Swiper
                         modules={[Navigation, Pagination, A11y]}
@@ -33,6 +33,28 @@ const Certificate = () => {
                         slidesPerView="3"
                         className=" w-full"
                         speed={2000}
+                        breakpoints={{
+                            // when window width is >= 1024px
+                            1024: {
+                                slidesPerView: 3,
+                            },
+                            // when window width is >= 768px
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            // when window width is >= 425px
+                            425: {
+                                slidesPerView: 1,
+                            },
+                            // when window width is >= 375px
+                            375: {
+                                slidesPerView: 1,
+                            },
+                            // when window width is >= 320px
+                            320: {
+                                slidesPerView: 1,
+                            },
+                        }}
                     >
                         <SwiperSlide>
                             <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
