@@ -1,14 +1,52 @@
 import { Player } from "@lottiefiles/react-lottie-player";
+import { useEffect, useRef, useState } from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { MdKeyboardArrowRight, MdOutlineMailOutline } from "react-icons/md";
+import { motion } from 'framer-motion';
 
 
 const Footer = () => {
+
+    const footerRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            {
+                root: null,
+                rootMargin: '0px',
+                // threshold: 0.5, // Trigger when 50% of the element is visible
+            }
+        );
+
+        if (footerRef.current) {
+            observer.observe(footerRef.current);
+        }
+
+        // Cleanup
+        return () => {
+            if (footerRef.current) {
+                observer.unobserve(footerRef.current);
+            }
+        };
+    }, []);
+
+
     return (
-        <div>
-            <div className=" bg-[#070707]">
-                <div className="max-w-[1350px] mx-auto pt-20 pb-20 ">
+        <div className="overflow-hidden">
+            <div ref={footerRef} className=" bg-[#070707]">
+                <motion.div
+                    initial={{ y: 50, opacity: 0 }}
+                    animate={isVisible ? { y: 0, opacity: 1 } : {}}
+                    transition={{ duration: 2 }}
+                    className="max-w-[1350px] mx-auto pt-20 pb-20 "
+                >
                     <div className="flex flex-col lg:flex-row items-start semi-sm:gap-10 md:gap-5 lg:gap-28">
                         <div className="flex  items-center font-cinzel">
                             <Player className=" xs:w-14 semi-sm:w-24"
@@ -53,17 +91,26 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
             <div className=' max-w-7xl mx-auto pt-5 pb-5 flex items-center justify-between flex-col lg:flex-row font-poppins'>
-                <small className='text-white sm:text-sm semi-sm:text-base font-semibold pb-5 pt-3'> Shaif Shajed Tonoy © 2023. All rights reserved.</small>
-                <div className="flex items-center gap-2 sm:gap-5">
-                    <a href="https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Facebook</a>
-                    <a href="https://github.com/tonoy3125" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Github</a>
-                    <a href="https://www.linkedin.com/in/shaif-shajed-tonoy-17356121a/" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">LinkedIn</a>
-                    <a href="https://www.instagram.com/shaifshajed?igsh=MWxnYjN4ZHB2bWZ1ag==" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Instagram</a>
+                <motion.small
+                    initial={{ x: -50, opacity: 0 }}
+                    animate={isVisible ? { x: 0, opacity: 1 } : {}}
+                    transition={{ duration: 2 }}
+                    className='text-white sm:text-sm semi-sm:text-base font-semibold pb-5 pt-3'
+                > Shaif Shajed Tonoy © 2023. All rights reserved.</motion.small>
+                <motion.div initial={{ x: 50, opacity: 0 }}
+                    animate={isVisible ? { x: 0, opacity: 1 } : {}}
+                    transition={{ duration: 2 }}>
+                    <div className="flex items-center gap-2 sm:gap-5">
+                        <a href="https://www.facebook.com/mdshaifshajed.tonoy?mibextid=ZbWKwL" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Facebook</a>
+                        <a href="https://github.com/tonoy3125" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Github</a>
+                        <a href="https://www.linkedin.com/in/shaif-shajed-tonoy-17356121a/" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">LinkedIn</a>
+                        <a href="https://www.instagram.com/shaifshajed?igsh=MWxnYjN4ZHB2bWZ1ag==" className="text-[#b1b1b1] hover:text-white text-base font-semibold cursor-pointer">Instagram</a>
 
-                </div>
+                    </div>
+                </motion.div>
             </div>
         </div>
     );
