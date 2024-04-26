@@ -101,7 +101,8 @@ const Footer = () => {
                     transition={{ duration: 2 }}
                     className='text-white sm:text-sm semi-sm:text-base font-semibold pb-5 pt-3'
                 > Shaif Shajed Tonoy © 2023. All rights reserved.</motion.small>
-                <motion.div initial={{ x: 50, opacity: 0 }}
+                <motion.div
+                    initial={{ x: 50, opacity: 0 }}
                     animate={isVisible ? { x: 0, opacity: 1 } : {}}
                     transition={{ duration: 2 }}>
                     <div className="flex items-center gap-2 sm:gap-5">
