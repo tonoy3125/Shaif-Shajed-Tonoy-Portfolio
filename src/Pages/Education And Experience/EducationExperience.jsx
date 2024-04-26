@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { FaUserGraduate } from "react-icons/fa6";
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
