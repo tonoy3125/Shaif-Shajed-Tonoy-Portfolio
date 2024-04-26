@@ -4,6 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import emailjs from '@emailjs/browser';
 import { useEffect, useRef, useState } from "react";
 import { motion } from 'framer-motion';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
     const [visible, setVisible] = useState(false);
@@ -45,8 +46,10 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 form.current.reset();
+                toast.success('Message sent successfully!');
             }, (error) => {
                 console.log(error.text);
+                toast.error('Failed to send message. Please try again later.');
             });
     };
 
@@ -123,6 +126,7 @@ const Contact = () => {
                     <button type="submit" className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Send Us Message</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
                 </motion.form>
             </div>
+            <Toaster />
         </div>
     );
 };
