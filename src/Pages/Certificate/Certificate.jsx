@@ -12,7 +12,7 @@ const Certificate = () => {
 
 
     return (
-        <div className="container mx-auto py-20">
+        <div className="container mx-auto py-32">
             <div className=" flex flex-col lg:flex-row max-w-7xl lg:ml-28 gap-10 ">
                 <div className='pl-6'>
                     <h1 style={{ letterSpacing: '0.2em' }} className='text-white text-2xl xs:text-2xl semi-sm:text-3xl md:text-4xl font-poppins font-bold mb-3'>Check Out</h1>
@@ -23,8 +23,6 @@ const Certificate = () => {
                         <button className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Know More</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
                     </div>
                 </div>
-                {/* <img className="w-[550px] hidden lg:block animate-up-and-down overflow-hidden" src="https://i.ibb.co/8xTD1R5/feedback-six.png" alt="" /> */}
-                {/* slider */}
                 <div className="lg:w-3/5 w-full px-5 md:px-5 lg:px-0">
 
                     <Swiper
