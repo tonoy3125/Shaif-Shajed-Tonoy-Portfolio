@@ -15,9 +15,9 @@ const Certificate = () => {
         <div className="container mx-auto py-20">
             <div className=" flex flex-col lg:flex-row max-w-7xl lg:ml-28 gap-10 ">
                 <div className='pl-6'>
-                    <h1 style={{ letterSpacing: '0.2em' }} className='text-white text-2xl sm:text-3xl semi-sm:text-4xl md:text-4xl font-poppins font-bold mb-3'>Check Out</h1>
-                    <h1 className='text-white md:text-4xl font-poppins font-bold mb-7'>My Certificate</h1>
-                    <p className='text-white font-lora text-base w-96'>I have done various programmimg courses to increase my programming skills and i'm sharing few of them</p>
+                    <h1 style={{ letterSpacing: '0.2em' }} className='text-white text-2xl xs:text-2xl semi-sm:text-3xl md:text-4xl font-poppins font-bold mb-3'>Check Out</h1>
+                    <h1 className='text-white xs:text-2xl semi-sm:text-3xl md:text-4xl font-poppins font-bold mb-7'>My Certificate</h1>
+                    <p className='text-white font-lora text-base md:w-96'>I have done various programmimg courses to increase my programming skills and i'm sharing few of them</p>
 
                     <div className='flex items-center mt-10'>
                         <button className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Know More</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
