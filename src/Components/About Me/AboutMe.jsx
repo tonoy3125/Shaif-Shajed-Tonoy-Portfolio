@@ -39,7 +39,7 @@ const AboutMe = () => {
 
 
     return (
-        <div ref={aboutRef} className="bg-[#070707] pt-28 pb-28">
+        <div ref={aboutRef} className="bg-[#070707] pt-28 pb-28 overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col lg:flex-row gap-20">
                     <div className="xs:mx-3 sm:mx-5 semi-sm:mx-5 md:mx-10 lg:mx-0">
