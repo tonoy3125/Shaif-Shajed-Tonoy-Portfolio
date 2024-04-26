@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
+import Certificate from "../Certificate/Certificate";
 import Contact from "../Contact/Contact";
 import EducationExperience from "../Education And Experience/EducationExperience";
 import Projects from "../Projects/Projects";
@@ -17,6 +18,7 @@ const Home = () => {
             <Banner />
             <EducationExperience />
             <Skill />
+            <Certificate />
             <Service />
             <Projects />
             <Blog />

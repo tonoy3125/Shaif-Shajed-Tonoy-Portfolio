@@ -38,7 +38,7 @@ const Skill = () => {
 
 
     return (
-        <div ref={skillRef} className="pb-10 pt-10 bg-[#070707]">
+        <div ref={skillRef} className="pb-10 pt-10 bg-[#070707] overflow-hidden">
             <div>
                 <motion.h5
                     initial={{ y: -50, opacity: 0 }}
