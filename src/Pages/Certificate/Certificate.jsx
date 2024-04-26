@@ -86,6 +86,36 @@ const Certificate = () => {
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>OpenAI-Powered Apps</h3>
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/nkFXcRb/Certificate-Of-Completion-GPT4-Foundations-Building-AIPowered-Apps-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>GPT-4 Foundations</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/Cv1kxpy/Certificate-Of-Completion-Hands-On-AI-Build-a-Generative-Language-Model-from-Scratch-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On AI</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/sjk8qV9/Certificate-Of-Completion-Building-Apps-with-AI-Tools-Chat-GPT-Semantic-Kernel-and-Langchain-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Building Apps with AI Tools</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/z85jD62/Certificate-Of-Completion-Building-a-Video-Transcriber-with-Node-js-and-Google-AI-Speech-To-Text-API.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Build a Video Transcriber</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/YWsB8M8/Certificate-Of-Completion-Hands-On-Generative-AI-Applying-Your-Tabular-Data-With-Chat-GPT-GPT4-and-L.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On Generative AI</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/PTKnSJG/Certificate-Of-Completion-Hands-On-Open-AI-API-Building-a-Real-World-Solution-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On OpenAI API</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                        </SwiperSlide>
                         <SwiperNavButton />
                     </Swiper>
                 </div>
