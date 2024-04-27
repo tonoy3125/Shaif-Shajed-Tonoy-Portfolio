@@ -52,9 +52,9 @@ const Banner = () => {
                     <h1 className="text-[#fff] md:text-xl lg:text-3xl font-bold mb-4 font-lora">Junior MERN-Stack-Developer</h1>
                     <p className="text-white xs:text-sm sm::text-base md:w-[400px] lg:w-[500px] mb-10 font-lora">✨ Young Trailblazer in Full Stack Development 💻 | Mastering the art of code from UI/UX magic to server-side wizardry. Fluent in HTML, CSS, JavaScript, React,Firebase, Node.js, MongoDB. Committed to turning ideas into reality and making a mark in the digital realm. Let's build brilliance together! 🌐🚀</p>
                     <div className="flex items-center gap-3">
-                        <button className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Hire Me</span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
-                        <button className=" sm:px-5 sm:py-2 lg:px-7 lg:py-3  flex items-center text-white  font-lora font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Download Resume
-                        </span> <span><MdKeyboardArrowRight className="text-base" /></span></button>
+                        <a href="/#contact" className="xs:px-3 xs:py-1 sm:px-5 sm:py-2 semi-sm:px-7 semi-sm:py-3 bg-[#c9f31d] flex items-center font-lora text-[#070707] hover:bg-[#070707] hover:text-white font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }}><span className="text-base">Hire Me</span> <span><MdKeyboardArrowRight className="text-base" /></span></a>
+                        <a target='_blank' className=" sm:px-5 sm:py-2 lg:px-7 lg:py-3  flex items-center text-white  font-lora font-medium gap-1 rounded-lg" style={{ whiteSpace: "nowrap" }} download="" href="https://drive.google.com/uc?export=download&id=1la90K4HzTK1WymZX_oV_jioiL6AcOkMv"><span className="text-base">Download Resume
+                        </span> <span><MdKeyboardArrowRight className="text-base" /></span></a>
                     </div>
                 </motion.div>
                 {/* Image */}

@@ -71,17 +71,13 @@ const Navbar = () => {
                                         isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
                                     } to="/">Home</NavLink></li>
                                     <hr />
-                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
-                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
-                                    } to="/offer">Projects</NavLink></li>
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><a href="/#projects">Projects</a></li>
                                     <hr />
                                     <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
                                     } to="/blog">Blog</NavLink></li>
                                     <hr />
-                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
-                                        isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
-                                    } to="/contact">Contact</NavLink></li>
+                                    <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><a href="/#contact">Contact</a></li>
                                     <hr />
                                     <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
