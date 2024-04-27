@@ -2,9 +2,19 @@
 .modal-container {
     overflow-y: auto; /* Enable vertical scrollbar */
     scrollbar-width: thin; /* Set the width of the scrollbar to thin */
+    scrollbar-color: #8750f7 #2a1454
 }
 
 .modal-container::-webkit-scrollbar {
     width: 8px;
     /* Set the width of the scrollbar */
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background-color: #8750f7;
+    border-radius: 4px;
+}
+
+.modal-container::-webkit-scrollbar-track {
+    background-color: #8750f7;
 }
