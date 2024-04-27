@@ -9,10 +9,26 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import SwiperNavButton from "./SwiperNavButton/SwiperNavButton";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import { useEffect } from 'react';
 
 const Certificate = () => {
 
-    
+    useEffect(() => {
+        const handleCloseModalOutside = (event) => {
+            const modal = document.getElementById('my_modal_1');
+            if (event.target === modal) {
+                modal.close(); // Close the modal
+            }
+        };
+
+        window.addEventListener('click', handleCloseModalOutside);
+
+        return () => {
+            // Clean up the event listener on component unmount
+            window.removeEventListener('click', handleCloseModalOutside);
+        };
+    }, []);
+
 
     return (
         <div className="container mx-auto py-32">
