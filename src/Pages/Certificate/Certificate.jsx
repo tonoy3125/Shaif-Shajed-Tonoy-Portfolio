@@ -92,10 +92,10 @@ const Certificate = () => {
                                     <div>
                                         <img className=' rounded-md' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
                                         <hr className="mt-1 mb-5" />
-                                        <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Course Name :</span> Complete Web Development Course</h1>
-                                        <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Issuing organization :</span> Programming Hero</h1>
-                                        <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Credential ID :</span> Credential ID WEB8-0790</h4>
-                                        <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Skills :</span> Full Stack Development</h4>
+                                        <h1 className='text-xl md:text-2xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Course Name :</span> Complete Web Development Course</h1>
+                                        <h1 className='text-xl md:text-2xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Issuing organization :</span> Programming Hero</h1>
+                                        <h4 className='text-lg md:text-xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Credential ID :</span> Credential ID WEB8-0790</h4>
+                                        <h4 className='text-lg md:text-xl font-lora font-medium mt-2 ml-2 lg:ml-4'><span className='font-poppins font-bold'>Skills :</span> Full Stack Development</h4>
                                     </div>
                                     <hr className="mt-5 mb-2" />
                                 </div>

@@ -1,20 +1,22 @@
 /* Style the modal */
 .modal-container {
-    overflow-y: auto; /* Enable vertical scrollbar */
-    scrollbar-width: thin; /* Set the width of the scrollbar to thin */
-    scrollbar-color: #8750f7 #2a1454
+    overflow-y: auto;
+    /* Enable vertical scrollbar */
+    scrollbar-width: thin;
+    /* Set the width of the scrollbar to thin */
+    scrollbar-color: transparent transparent;
+    /* Set the color of the scrollbar thumb and track to transparent */
 }
 
+/* Hide the scrollbar */
 .modal-container::-webkit-scrollbar {
-    width: 8px;
-    /* Set the width of the scrollbar */
+    width: 0;
+    /* Hide the scrollbar width */
+    height: 0;
+    /* Hide the scrollbar height */
 }
 
-.modal-container::-webkit-scrollbar-thumb {
-    background-color: #8750f7;
-    border-radius: 4px;
-}
-
-.modal-container::-webkit-scrollbar-track {
-    background-color: #8750f7;
+/* Ensure smooth scrolling */
+.modal-container {
+    -webkit-overflow-scrolling: touch;
 }
