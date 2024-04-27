@@ -12,6 +12,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md';
 
 const Certificate = () => {
 
+    
 
     return (
         <div className="container mx-auto py-32">
@@ -56,37 +57,34 @@ const Certificate = () => {
                             },
                         }}
                     >
-                        <div>
-                            <SwiperSlide className='cursor-pointer' onClick={() => document.getElementById('my_modal_1').showModal()}>
-                                <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
-                                <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
-                                <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>Programming Hero</h5>
-                                <dialog id="my_modal_1" className="modal">
+                        <SwiperSlide className='cursor-pointer' onClick={() => document.getElementById('my_modal_1').showModal()}>
+                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>Programming Hero</h5>
+                            <dialog id="my_modal_1" className="modal">
 
-                                    <div className="modal-box w-11/12 max-w-5xl modal-container">
+                                <div className="modal-box w-11/12 max-w-5xl modal-container">
 
-                                        <div className="">
-                                            <h3 className="font-bold text-lg">Certifate Details</h3>
-                                            <form method="dialog">
-                                                {/* if there is a button in form, it will close the modal */}
-                                                <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
-                                            </form>
-                                        </div>
-                                        <hr className="mt-1 mb-2" />
-                                        <div>
-                                            <img className=' rounded-md' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
-                                            <hr className="mt-1 mb-5" />
-                                            <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Course Name :</span> Complete Web Development Course</h1>
-                                            <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Issuing organization :</span> Programming Hero</h1>
-                                            <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Credential ID :</span> Credential ID WEB8-0790</h4>
-                                            <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Skills :</span> Full Stack Development</h4>
-                                        </div>
-                                        <hr className="mt-5 mb-2" />
+                                    <div className="">
+                                        <h3 className="font-bold text-lg">Certifate Details</h3>
+                                        <form method="dialog">
+                                            {/* if there is a button in form, it will close the modal */}
+                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                        </form>
                                     </div>
-                                </dialog>
-                            </SwiperSlide>
-
-                        </div>
+                                    <hr className="mt-1 mb-2" />
+                                    <div>
+                                        <img className=' rounded-md' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
+                                        <hr className="mt-1 mb-5" />
+                                        <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Course Name :</span> Complete Web Development Course</h1>
+                                        <h1 className='text-2xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Issuing organization :</span> Programming Hero</h1>
+                                        <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Credential ID :</span> Credential ID WEB8-0790</h4>
+                                        <h4 className='text-xl font-lora font-medium mt-2 lg:ml-4'><span className='font-poppins font-bold'>Skills :</span> Full Stack Development</h4>
+                                    </div>
+                                    <hr className="mt-5 mb-2" />
+                                </div>
+                            </dialog>
+                        </SwiperSlide>
                         <SwiperSlide>
                             <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jvBgdRb/Certificate-Of-Completion-Become-a-Full-Stack-Web-Developer-1-1.png" alt="" />
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
