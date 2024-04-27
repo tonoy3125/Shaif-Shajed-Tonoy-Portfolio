@@ -1,8 +1,10 @@
 /* Style the modal */
 .modal-container {
+    max-width: 1100px;
     overflow-y: auto; /* Enable vertical scrollbar */
     scrollbar-width: thin; /* Set the width of the scrollbar to thin */
     scrollbar-color: #8750f7 #2a1454
+    
 }
 
 .modal-container::-webkit-scrollbar {
