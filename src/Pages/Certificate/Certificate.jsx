@@ -15,16 +15,17 @@ const Certificate = () => {
 
     useEffect(() => {
         const handleCloseModalOutside = (event) => {
-            const modal = document.getElementById('my_modal_1');
-            if (event.target === modal) {
-                modal.close(); // Close the modal
-            }
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.close(); // Close the modal
+                }
+            });
         };
 
         window.addEventListener('click', handleCloseModalOutside);
 
         return () => {
-            // Clean up the event listener on component unmount
             window.removeEventListener('click', handleCloseModalOutside);
         };
     }, []);
@@ -74,7 +75,7 @@ const Certificate = () => {
                         }}
                     >
                         {/* 1st Certificate */}
-                        <SwiperSlide  onClick={() => document.getElementById('my_modal_1').showModal()}>
+                        <SwiperSlide onClick={() => document.getElementById('my_modal_1').showModal()}>
                             <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
                             <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Full Stack Development</h3>
                             <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>Programming Hero</h5>
