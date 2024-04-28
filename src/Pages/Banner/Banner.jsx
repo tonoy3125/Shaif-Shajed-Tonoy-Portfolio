@@ -74,12 +74,12 @@ const Banner = () => {
                     transition={{ duration: 2 }}
                 >
                     <div>
-                        <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={13} duration={2} />+</h3>
+                        <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={2} duration={2} />+</h3>
                         <p className="text-[#b1b1b1] text-base font-lora font-normal ">Years Of Experience</p>
                     </div>
                     <hr className="mt-5 mb-5" />
                     <div>
-                        <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={8} duration={4} />K+</h3>
+                        <h3 className="text-[40px] font-medium text-[#c9f31d] font-poppins mb-2"><CountUp start={0} end={15} duration={4} />+</h3>
                         <p className="text-[#b1b1b1] text-base font-lora font-normal">Project Complete</p>
                     </div>
                     <hr className="mt-5 mb-5" />
