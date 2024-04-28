@@ -74,10 +74,10 @@ const Certificate = () => {
                         }}
                     >
                         {/* 1st Certificate */}
-                        <SwiperSlide className='cursor-pointer' onClick={() => document.getElementById('my_modal_1').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>Programming Hero</h5>
+                        <SwiperSlide  onClick={() => document.getElementById('my_modal_1').showModal()}>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/FVFX1Df/57abb816-2610-4786-ab97-5e2de77d50d8-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Full Stack Development</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>Programming Hero</h5>
                             <dialog id="my_modal_1" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -104,9 +104,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 2nd Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_2').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jvBgdRb/Certificate-Of-Completion-Become-a-Full-Stack-Web-Developer-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Full Stack Development</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/jvBgdRb/Certificate-Of-Completion-Become-a-Full-Stack-Web-Developer-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Full Stack Development</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_2" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -133,9 +133,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 3rd Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_3').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/59vkZ5m/Certificate-Of-Completion-Python-Essential-Training-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Python Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/59vkZ5m/Certificate-Of-Completion-Python-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Python Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_3" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -162,9 +162,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 4th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_4').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/j6pXNbV/Certificate-Of-Completion-Flutter-Essential-Training-Build-for-Multiple-Platforms-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Flutter Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/j6pXNbV/Certificate-Of-Completion-Flutter-Essential-Training-Build-for-Multiple-Platforms-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Flutter Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_4" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -191,9 +191,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 5th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_5').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/xfW322M/Certificate-Of-Completion-Dev-Ops-Foundations-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>DevOps Foundations</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/xfW322M/Certificate-Of-Completion-Dev-Ops-Foundations-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>DevOps Foundations</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_5" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -220,9 +220,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 6th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_6').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/Lvq2NY8/Certificate-Of-Completion-Learning-REST-APIs-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Learning REST APIs</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/Lvq2NY8/Certificate-Of-Completion-Learning-REST-APIs-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Learning REST APIs</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_6" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -249,9 +249,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 7th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_7').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/LxFVWH7/Certificate-Of-Completion-No-SQL-Essential-Training-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>NoSQL Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/LxFVWH7/Certificate-Of-Completion-No-SQL-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>NoSQL Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_7" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -278,9 +278,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 8th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_8').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jRR5tqR/Certificate-Of-Completion-SQL-Essential-Training-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>SQL Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/jRR5tqR/Certificate-Of-Completion-SQL-Essential-Training-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>SQL Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_8" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -307,9 +307,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 9th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_9').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/MR6xw2s/Certificate-Of-Completion-Programming-Foundations-Software-Testing-QA-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Software Testing</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/MR6xw2s/Certificate-Of-Completion-Programming-Foundations-Software-Testing-QA-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Software Testing</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_9" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -336,9 +336,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 10th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_10').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/4fDZF5T/Certificate-Of-Completion-Learning-ECMAScript-6-ES6-2-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>ECMAScript 6+ (ES6+)</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/4fDZF5T/Certificate-Of-Completion-Learning-ECMAScript-6-ES6-2-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>ECMAScript 6+ (ES6+)</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_10" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -365,9 +365,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 11th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_11').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/vQt2wcp/Certificate-Of-Completion-Node-js-Essential-Training-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Node.js Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/vQt2wcp/Certificate-Of-Completion-Node-js-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Node.js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_11" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -394,9 +394,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 12th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_12').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/hddwHTp/Certificate-Of-Completion-React-js-Essential-Training-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>React.js Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/hddwHTp/Certificate-Of-Completion-React-js-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>React.js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_12" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -423,9 +423,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 13th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_13').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/jDDzB1H/Certificate-Of-Completion-Java-Script-Essential-Training-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Js Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/jDDzB1H/Certificate-Of-Completion-Java-Script-Essential-Training-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Js Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_13" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -452,9 +452,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 14th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_14').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/t4R1WLX/Certificate-Of-Completion-Git-Essential-Training-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Git Essential Training</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/t4R1WLX/Certificate-Of-Completion-Git-Essential-Training-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Git Essential Training</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_14" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -481,9 +481,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 15th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_15').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/YbJ7RwV/Certificate-Of-Completion-Search-Techniques-for-Web-Developers-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Search Techniques</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/YbJ7RwV/Certificate-Of-Completion-Search-Techniques-for-Web-Developers-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Search Techniques</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_15" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -510,9 +510,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 16th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_16').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/KrxMJ31/Certificate-Of-Completion-Hands-On-Projects-for-Open-AIPowered-Apps-1-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>OpenAI-Powered Apps</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/KrxMJ31/Certificate-Of-Completion-Hands-On-Projects-for-Open-AIPowered-Apps-1-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>OpenAI-Powered Apps</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_16" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -539,9 +539,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 17th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_17').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/nkFXcRb/Certificate-Of-Completion-GPT4-Foundations-Building-AIPowered-Apps-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>GPT-4 Foundations</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/nkFXcRb/Certificate-Of-Completion-GPT4-Foundations-Building-AIPowered-Apps-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>GPT-4 Foundations</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_17" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -568,9 +568,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 18th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_18').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/Cv1kxpy/Certificate-Of-Completion-Hands-On-AI-Build-a-Generative-Language-Model-from-Scratch-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On AI</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/Cv1kxpy/Certificate-Of-Completion-Hands-On-AI-Build-a-Generative-Language-Model-from-Scratch-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Hands-On AI</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_18" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -597,9 +597,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 19th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_19').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/sjk8qV9/Certificate-Of-Completion-Building-Apps-with-AI-Tools-Chat-GPT-Semantic-Kernel-and-Langchain-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Building Apps with AI Tools</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/sjk8qV9/Certificate-Of-Completion-Building-Apps-with-AI-Tools-Chat-GPT-Semantic-Kernel-and-Langchain-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Building Apps with AI Tools</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_19" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -626,9 +626,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 20th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_20').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/z85jD62/Certificate-Of-Completion-Building-a-Video-Transcriber-with-Node-js-and-Google-AI-Speech-To-Text-API.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Build a Video Transcriber</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/z85jD62/Certificate-Of-Completion-Building-a-Video-Transcriber-with-Node-js-and-Google-AI-Speech-To-Text-API.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Build a Video Transcriber</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_20" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -655,9 +655,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 21th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_21').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/YWsB8M8/Certificate-Of-Completion-Hands-On-Generative-AI-Applying-Your-Tabular-Data-With-Chat-GPT-GPT4-and-L.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On Generative AI</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/YWsB8M8/Certificate-Of-Completion-Hands-On-Generative-AI-Applying-Your-Tabular-Data-With-Chat-GPT-GPT4-and-L.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Hands-On Generative AI</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_21" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -684,9 +684,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 22th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_22').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/PTKnSJG/Certificate-Of-Completion-Hands-On-Open-AI-API-Building-a-Real-World-Solution-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>Hands-On OpenAI API</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/PTKnSJG/Certificate-Of-Completion-Hands-On-Open-AI-API-Building-a-Real-World-Solution-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>Hands-On OpenAI API</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_22" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
@@ -713,9 +713,9 @@ const Certificate = () => {
                         </SwiperSlide>
                         {/* 23th Certificate */}
                         <SwiperSlide onClick={() => document.getElementById('my_modal_23').showModal()}>
-                            <img className='border rounded-md overflow-hidden' src="https://i.ibb.co/wKZsPPw/Certificate-Of-Completion-Getting-Handson-with-GPT4-Tips-and-Tricks-1.png" alt="" />
-                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center'>AI Tips and Tricks</h3>
-                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center'>LinkedIn</h5>
+                            <img className='border rounded-md overflow-hidden cursor-pointer' src="https://i.ibb.co/wKZsPPw/Certificate-Of-Completion-Getting-Handson-with-GPT4-Tips-and-Tricks-1.png" alt="" />
+                            <h3 className='text-white font-lora font-semibold text-lg mt-4 text-center cursor-pointer'>AI Tips and Tricks</h3>
+                            <h5 className='text-white font-lora font-semibold text-base mt-4 text-center cursor-pointer'>LinkedIn</h5>
                             <dialog id="my_modal_23" className="modal">
 
                                 <div className="modal-box w-11/12 max-w-5xl modal-container">
