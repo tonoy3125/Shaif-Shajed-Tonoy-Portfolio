@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { AiOutlineMenu } from 'react-icons/ai';
 import { RiMenu2Fill } from "react-icons/ri";
 import { IoMdMenu } from "react-icons/io";
@@ -10,7 +11,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Player } from "@lottiefiles/react-lottie-player";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import './Navbar.css'
 
@@ -33,20 +34,21 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="navbar-start">
                     {/* Responsive left Side logo & heading */}
-                    <div className='flex items-center xs:gap-7 sm:gap-10 md:gap-96'>
-                        <div className="flex lg:gap-2 items-center font-cinzel">
-                            <Player className="xs:w-16 semi-sm:w-24"
-                                autoplay
-                                loop
-                                src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
-                            >
-                            </Player>
-                            <h1 className="sm:text-lg semi-sm:text-xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
-                        </div>
-                        <div className='lg:hidden border xs:px-2 xs:py-2 sm:px-3 sm:py-2 rounded-md' onClick={toggleSidebarMobileDevice}>
-                            <AiOutlineMenu className=" text-2xl semi-sm:text-3xl font-bold text-white"></AiOutlineMenu>
-                        </div>
-                    </div>
+                    <Link to='/'>
+                        <div className='flex items-center xs:gap-7 sm:gap-10 md:gap-96'>
+                            <div className="flex lg:gap-2 items-center font-cinzel">
+                                <Player className="xs:w-16 semi-sm:w-24"
+                                    autoplay
+                                    loop
+                                    src="https://lottie.host/9c5cf3cd-a27d-45a1-abed-85a81b70df0a/vko2bg0FsY.json"
+                                >
+                                </Player>
+                                <h1 className="sm:text-lg semi-sm:text-xl font-bold  text-white " style={{ whiteSpace: "nowrap" }}>Shaif Shajed Tonoy</h1>
+                            </div>
+                            <div className='lg:hidden border xs:px-2 xs:py-2 sm:px-3 sm:py-2 rounded-md' onClick={toggleSidebarMobileDevice}>
+                                <AiOutlineMenu className=" text-2xl semi-sm:text-3xl font-bold text-white"></AiOutlineMenu>
+                            </div>
+                        </div></Link>
                     {/* Left side sidebar content */}
                     <div className={`sidebarleft ${showSidebarMobileDevice ? 'active' : ''} lg:hidden`}>
                         <div className="sidebar-content-two ">
@@ -75,7 +77,7 @@ const Navbar = () => {
                                     <hr />
                                     <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><NavLink className={({ isActive, isPending }) =>
                                         isPending ? "pending" : isActive ? "font-bold text-[#c9f31d] " : ""
-                                    } to="/blog">Blog</NavLink></li>
+                                    } to="/blogdetails">Blog</NavLink></li>
                                     <hr />
                                     <li className="text-white text-lg hover:text-[#46d993] font-bold py-3"><a href="/#contact">Contact</a></li>
                                     <hr />
@@ -98,7 +100,7 @@ const Navbar = () => {
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><a href="/#projects">Projects</a></li>
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "font-bold text-gray-50 underline" : ""
-                        } to="/blog">Blog</NavLink></li>
+                        } to="/blogdetails">Blog</NavLink></li>
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><a href="/#contact">Contact</a></li>
                         <li className="text-[#fff] text-base hover:text-[#c9f31d] font-medium"><NavLink className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "font-bold text-gray-50 underline" : ""
