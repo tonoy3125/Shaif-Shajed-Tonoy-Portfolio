@@ -87,7 +87,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-3" />
@@ -116,7 +116,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -145,7 +145,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -174,7 +174,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -203,7 +203,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -232,7 +232,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -261,7 +261,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -290,7 +290,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -319,7 +319,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -348,7 +348,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -377,7 +377,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -406,7 +406,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -435,7 +435,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -464,7 +464,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -493,7 +493,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -522,7 +522,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -551,7 +551,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -580,7 +580,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -609,7 +609,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -638,7 +638,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -667,7 +667,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -696,7 +696,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
@@ -725,7 +725,7 @@ const Certificate = () => {
                                         <h3 className="font-bold text-lg">Certifate Details</h3>
                                         <form method="dialog">
                                             {/* if there is a button in form, it will close the modal */}
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-6 top-5">✕</button>
+                                            <button className="btn btn-sm btn-circle border border-black btn-ghost absolute right-6 top-5">✕</button>
                                         </form>
                                     </div>
                                     <hr className="mt-3 mb-4" />
