@@ -1,6 +1,7 @@
 import ProjectFiveCard from "../../Components/Project Five/Project Five Card/ProjectFiveCard";
 import ProjectFourCard from "../../Components/Project Four/Project Four Card/ProjectFourCard";
 import ProjectOneCard from "../../Components/Project One/Project One Card/ProjectOneCard";
+import ProjectSixCard from "../../Components/Project Six/Project Six Card/ProjectSixCard";
 import ProjectThreeCard from "../../Components/Project Three/Project Three Card/ProjectThreeCard";
 import ProjectTwoCard from "../../Components/Project Two/Project Two Card/ProjectTwoCard";
 import "./Projects.css";
@@ -17,6 +18,7 @@ const Projects = () => {
           <span className="text-[#c9f31d]">Projects</span>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-20 xs:mx-4 md:mx-4">
+          <ProjectSixCard />
           <ProjectFiveCard />
           <ProjectOneCard />
           <ProjectTwoCard />
