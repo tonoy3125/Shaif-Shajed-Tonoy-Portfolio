@@ -48,18 +48,16 @@ const Description = () => {
         Project Description
       </h1>
       <p className="text-base font-lora font-medium ">
-        At BD Quick School, we believe in the power of knowledge to make a
-        difference in people's lives. Our platform is crafted to offer a
-        seamless and enjoyable learning experience for individuals from all
-        walks of life, regardless of age or background. Whether you're a student
-        looking to excel in your studies, a professional aiming to enhance your
-        skills, or simply someone with a passion for lifelong learning, we cater
-        to everyone's needs. With our user-friendly interface and engaging
-        content, discovering new concepts and expanding your knowledge has never
-        been easier. Join us on our journey to unlock the endless possibilities
-        that education has to offer. Together, let's embark on a fulfilling
-        learning experience that will empower you to achieve your goals and
-        thrive in today's ever-changing world.
+        PowerPulse Fitness is a simple and easy-to-use web app for buying
+        fitness products. Built with React and Redux, it has a clean and
+        attractive design. Users can browse products, filter by category and
+        price, and sort items easily. The app allows adding products to the
+        cart, saving favorites to a wishlist, and checking out with multiple
+        payment options. The homepage showcases top categories, featured
+        products, and key benefits for users. A responsive product gallery makes
+        shopping smooth and enjoyable. Whether you're looking for workout gear
+        or fitness accessories, PowerPulse Fitness makes online shopping quick,
+        convenient, and hassle-free
       </p>
       <h1 className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-4xl font-bold font-poppins mt-5 mb-5">
         Unique Features

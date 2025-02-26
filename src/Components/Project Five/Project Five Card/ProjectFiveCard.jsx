@@ -107,7 +107,7 @@ const ProjectFiveCard = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col semi-sm:flex-row md:items-center gap-7 lg:gap-[167px] mt-10">
+                  <div className="flex flex-col semi-sm:flex-row md:items-center gap-7 lg:gap-[175px] mt-10">
                     <div>
                       <h3 className="text-base font-poppins">Start Date</h3>
                       <p className="text-base font-lora font-medium">

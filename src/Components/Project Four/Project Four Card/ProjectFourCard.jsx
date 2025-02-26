@@ -41,7 +41,7 @@ const ProjectFourCard = () => {
       >
         <img
           className="rounded"
-          src="https://i.ibb.co.com/SNtBQz3/Screenshot-2024-10-29-at-14-36-32-Power-Pulse-Fitness-Home5.png"
+          src="https://i.ibb.co.com/2HNKDvy/Screenshot-2025-02-26-at-22-58-24-Rimberio-Automotive.png"
           alt=""
         />
         <div
