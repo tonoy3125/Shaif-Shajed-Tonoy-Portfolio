@@ -67,373 +67,201 @@ const Description = () => {
       <ul className="font-lora">
         <ul className="list-disc pl-5">
           <li>
-            <strong>Login and Logout Authentication:</strong>
+            <strong>User Interface and Navigation:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Develop a login page where users can enter their credentials
-                (username/email and password).
+                Develop a welcoming homepage with a visually appealing hero
+                section highlighting the brand and featured content.
               </li>
               <li>
-                Implement authentication using technologies like OAuth, JWT, or
-                session-based authentication.
+                Implement a category section displaying product categories with
+                images/icons, allowing users to explore products by category.
+                Clicking a category redirects users to the Products page with
+                the selected category filter applied by default.
               </li>
               <li>
-                Upon successful authentication, redirect users to the main
-                dashboard.
+                Showcase Featured Products with images, names, prices, and a
+                button to view more details. Include an "Explore More" button to
+                navigate to the full product listings page.
               </li>
               <li>
-                Provide a logout button or option to allow users to securely log
-                out of their accounts.
+                Provide a structured header with a responsive navigation bar
+                featuring a logo, site name, and links to key sections like
+                Home, Products, Cart, Wishlist, and more.
+              </li>
+              <li>
+                Include a footer with essential links to contact information,
+                social media, terms of service, privacy policy, and relevant
+                resources
               </li>
             </ul>
           </li>
           <li>
-            <strong>Dark and Light Mode:</strong>
+            <strong>Product and Cart Management:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Create a toggle switch or button in the user settings section to
-                switch between dark and light modes.
+                Displays all available products in a grid or list view, each
+                with its image, name, price, and a button to view more details.
               </li>
               <li>
-                Use CSS variables or separate CSS files to define styling for
-                both modes.
+                The design supports multiple images per product, with one
+                featured image as default and others available for viewing on
+                click.
               </li>
               <li>
-                Store user preference for dark or light mode in local storage or
-                cookies to maintain consistency across sessions.
+                Enables users to search for products by name, with real-time
+                search suggestions and results.
+              </li>
+              <li>
+                Users can select multiple categories at once. Products matching
+                any of the selected categories will be shown. For example,
+                selecting "Cardio" and "Strength" categories will display
+                products from both categories.
+              </li>
+              <li>
+                Users can filter products based on their price range. The filter
+                allows custom input for both minimum and maximum prices.
+              </li>
+              <li>
+                Users can sort products by price in both ascending and
+                descending order.
+              </li>
+              <li>
+                A quick way to reset all applied filters and return to the
+                default view of all products.
               </li>
             </ul>
           </li>
           <li>
-            <strong>Translator Mode Switch between English to Bangla:</strong>
+            <strong>Product Details Page:</strong>
             <ul className="list-disc pl-5">
-              <li>Integrate a translation API such as Google Translate.</li>
               <li>
-                Implement a dropdown menu or button to allow users to select the
-                desired language.
+                Displays all product details, including name, price, stock
+                status, category, and description. Features multiple images with
+                a carousel or thumbnails for easy viewing, allowing users to
+                explore different product angles
               </li>
               <li>
-                Provide functionality to translate text content dynamically
-                between English and Bangla.
+                Users can add the product to their cart directly from the
+                details page.
+              </li>
+              <li>
+                The cart displays a detailed list of added products, including
+                name, image, and price. Users can adjust quantity within stock
+                limits using controls. A remove button allows deletion of items,
+                with a confirmation prompt before removal to prevent accidental
+                deletions, ensuring a smooth and controlled shopping experience
               </li>
             </ul>
           </li>
           <li>
-            <strong>Quiz Feature:</strong>
+            <strong>Cart Page:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Develop a quiz module where users can take quizzes on various
-                topics.
+                Displays a list of added products with name, image, and price.
+                Users can increase or decrease quantity within stock limits
+                using controls. A remove button allows item deletion with a
+                confirmation prompt to prevent accidental removal, ensuring a
+                smooth and hassle-free shopping experience.
               </li>
               <li>
-                Create a user interface for displaying questions, options, and
-                collecting user responses.
+                Displays the total price dynamically, adjusting as users change
+                product quantities or remove items.
               </li>
-              <li>Implement scoring and feedback mechanisms.</li>
               <li>
-                Allow users to review their quiz results and track their
-                progress.
+                Includes breakdowns for taxes, shipping costs (if any), and a
+                final total price.
+              </li>
+              <li>
+                Activated only if all items in the cart are in stock. If any
+                item is out of stock, the button will be disabled.
+              </li>
+              <li>
+                Clicking this button redirects the user to the Checkout Page to
+                finalize the order.
               </li>
             </ul>
           </li>
           <li>
-            <strong>Like and Dislike in Per Services:</strong>
+            <strong>Checkout Page:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Add like and dislike buttons or icons to each service or content
-                item.
+                Collects user information including name, email, phone number,
+                and delivery address
               </li>
               <li>
-                Implement functionality to record and display the number of
-                likes and dislikes for each item.
+                Includes validation to ensure all fields are filled correctly
+                before proceeding
               </li>
               <li>
-                Store user reactions in the database to personalize content
-                recommendations.
+                Users can select this option and place the order. The system
+                will confirm the order, redirect the user to a success page, and
+                automatically adjust the stock for the purchased items.
+              </li>
+              <li>
+                For online payments, users can select Stripe and be redirected
+                to the secure Stripe payment gateway. After successful payment,
+                the user is redirected to a success page and product stock is
+                updated accordingly.
               </li>
             </ul>
           </li>
           <li>
-            <strong>User Able to Bookmark Any Services:</strong>
+            <strong>Wishlist Management:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Implement a bookmarking feature where users can save their
-                favorite services or content items.
+                Logged-in users can add products to their wishlist, and these
+                are saved for each user individually. The wishlist persists
+                across sessions and devices, allowing users to access it
+                anytime.
               </li>
               <li>
-                Provide UI elements such as a bookmark icon or button for users
-                to easily bookmark and unbookmark items.
-              </li>
-              <li>
-                Store bookmarked items in the database associated with each
-                user's account.
+                Users can add or remove products from their wishlist with
+                changes reflected instantly. The wishlist button toggles between
+                "Add to Wishlist" and "Remove from Wishlist" based on the
+                product’s presence in the wishlist..
               </li>
             </ul>
           </li>
           <li>
-            <strong>Payment Feature (SSL):</strong>
+            <strong>Admin Product Management:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Integrate a secure payment gateway such as Stripe or PayPal.
+                Admins have access to a table displaying all products with
+                relevant details such as product name, price, stock quantity,
+                and category. The table also includes action buttons to update
+                or delete each product
               </li>
               <li>
-                Implement SSL encryption to ensure secure transmission of
-                payment data.
+                Admins can add products using a form with name, price, stock
+                quantity, category, and description. Supports image uploads via
+                Cloudinary or direct URL input, ensuring easy and flexible
+                product management for a seamless inventory update process.
               </li>
               <li>
-                Provide various payment options including credit/debit cards,
-                digital wallets, and bank transfers.
+                Admins can update existing products with prefilled data from the
+                database. After updating, the changes are reflected in real-time
+                on the frontend..
+              </li>
+              <li>
+                Admins can delete a product, with a confirmation prompt to
+                prevent accidental deletion. Once confirmed, the product is
+                removed from both the database and the UI.
               </li>
             </ul>
           </li>
           <li>
-            <strong>Each Student Has a Unique Student ID:</strong>
+            <strong>Error Handling:</strong>
             <ul className="list-disc pl-5">
               <li>
-                Generate a unique student ID for each registered student upon
-                account creation.
+                All error scenarios, such as invalid form inputs, failed payment
+                attempts, or out-of-stock items, are handled gracefully with
+                descriptive error messages shown to the user.
               </li>
               <li>
-                Store the student ID in the database along with other user
-                information.
-              </li>
-              <li>
-                Display the student ID in the user profile section for
-                reference.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              When User Buys a Course, Role is Changed to Student:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Implement a mechanism to detect when a user purchases a course.
-              </li>
-              <li>
-                Upon successful purchase, update the user's role from regular
-                user to student.
-              </li>
-              <li>
-                Update user permissions and access levels accordingly based on
-                the new role.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Live Video Chat Using Zigo Cloud:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Integrate Zigo Cloud or a similar service for live video chat
-                functionality.
-              </li>
-              <li>
-                Implement UI elements for initiating and participating in live
-                video chats.
-              </li>
-              <li>
-                Provide features such as screen sharing, text chat, and
-                moderator controls.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              Video Streaming Switch Between One Video to Another:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Develop a video streaming module that allows users to switch
-                between different videos seamlessly.
-              </li>
-              <li>
-                Implement controls for play, pause, forward, rewind, and switch
-                video functionality.
-              </li>
-              <li>
-                Ensure smooth playback across different devices and network
-                conditions.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>User Profile Section:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Create a user profile page where users can view and edit their
-                personal information.
-              </li>
-              <li>
-                Include sections for profile picture, username, email, and other
-                relevant details.
-              </li>
-              <li>
-                Allow users to update their profile information and manage
-                privacy settings.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Change User Name and Password in Edit Profile:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Add functionality for users to change their username and
-                password from the profile settings page.
-              </li>
-              <li>
-                Implement validation and security measures to ensure the
-                authenticity of password changes.
-              </li>
-              <li>
-                Send email notifications for successful changes and provide
-                options for password recovery.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              All User Review Section in Home Page Feedback Section:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Create a feedback section on the homepage where users can view
-                and submit reviews.
-              </li>
-              <li>
-                Display all user reviews in a visually appealing format,
-                including ratings and comments.
-              </li>
-              <li>
-                Implement moderation tools to manage reviews and address any
-                inappropriate content.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Admin Dashboard:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Develop an admin dashboard with features such as adding courses,
-                managing courses, managing users, banning users, managing
-                reviews, advertising reviews, adding announcements, managing
-                announcements, and managing quizzes.
-              </li>
-              <li>
-                Implement role-based access control to restrict admin
-                functionalities to authorized users.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              Device Activity Showing User Which Device or Browser He/She Logged
-              In:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Track and log user sessions including device information and
-                login timestamps.
-              </li>
-              <li>
-                Display device activity in the user profile section or admin
-                dashboard for users and administrators to review.
-              </li>
-              <li>
-                Implement security features such as session management and
-                two-factor authentication to prevent unauthorized access.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>AI Chat Assistant:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Integrate a chatbot using AI technologies such as Dialogflow or
-                Rasa to provide assistance to users.
-              </li>
-              <li>
-                Implement natural language processing to understand user queries
-                and provide relevant responses.
-              </li>
-              <li>
-                Provide a conversational interface for users to interact with
-                the AI chat assistant and get their problems solved.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>User Chat with Our Team via Messenger:</strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Integrate a messaging platform or chat system to allow users to
-                communicate with the support team.
-              </li>
-              <li>
-                Provide options for users to initiate chats, send messages, and
-                receive replies from the team.
-              </li>
-              <li>
-                Implement features such as message threading, file attachments,
-                and notifications for new messages.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              Help Desk Where Users Can Post Problems and Others Can Comment:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Create a help desk feature where users can post their problems
-                and receive assistance from other users or moderators.
-              </li>
-              <li>
-                Implement comment and moderation functionalities to manage
-                discussions and provide solutions.
-              </li>
-              <li>
-                Allow users to search and filter help desk topics by category,
-                tags, or keywords.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              Notification Section After Buying Course for Latest Uploaded
-              Videos:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Develop a notification system to alert users about new course
-                updates, website updates, and other relevant information.
-              </li>
-              <li>
-                Implement push notifications or in-app notifications for timely
-                updates.
-              </li>
-              <li>
-                Customize notification preferences for each user based on their
-                interests and activity history.
-              </li>
-            </ul>
-          </li>
-          <li>
-            <strong>
-              Student Announcement Section for Course and Website Updates:
-            </strong>
-            <ul className="list-disc pl-5">
-              <li>
-                Create a dedicated section for student announcements where users
-                can view updates related to courses and website changes.
-              </li>
-              <li>
-                Provide options for administrators to post announcements and for
-                users to view them.
-              </li>
-              <li>
-                Allow users to subscribe to specific announcement categories or
-                topics to receive relevant updates.
+                Frontend form validations are in place for user details, product
+                additions, and checkout processes, ensuring that required fields
+                are completed before submission.
               </li>
             </ul>
           </li>
