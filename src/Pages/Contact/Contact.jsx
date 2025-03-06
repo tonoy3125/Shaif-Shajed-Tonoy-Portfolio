@@ -70,7 +70,7 @@ const Contact = () => {
                             <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
                                 <IoCheckmarkSharp className="text-xl" />
                             </div>
-                            <p className="text-[#b1b1b1] text-xl font-medium">5+ Years Of Experience</p>
+                            <p className="text-[#b1b1b1] text-xl font-medium">3+ Years Of Experience</p>
                         </div>
                         <div className="flex items-center gap-5 mb-7">
                             <div className="border px-1 py-1 rounded-full bg-[#c9f31d]">
