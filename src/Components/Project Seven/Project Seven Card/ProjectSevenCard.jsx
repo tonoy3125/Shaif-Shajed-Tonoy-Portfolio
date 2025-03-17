@@ -2,11 +2,12 @@
 import { useEffect, useState } from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { ImCross } from "react-icons/im";
-import "./ProjectFiveCard.css";
-import Slider from "../Slider/Slider";
-import Description from "../Description/Description";
+import "./ProjectSevenCard.css";
 
-const ProjectFiveCard = () => {
+import Description from "../Description/Description";
+import Slider from "../Slider/Slider";
+
+const ProjectSevenCard = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -40,7 +41,7 @@ const ProjectFiveCard = () => {
       >
         <img
           className="rounded"
-          src="https://i.ibb.co.com/NdXBvdnr/Screenshot-2025-02-25-at-12-23-30-Power-Pulse-Fitness-Home.png"
+          src="https://i.ibb.co.com/HT6h5XK6/screencapture-on-the-go-frontend-vercel-app-2025-03-17-13-02-06.png"
           alt=""
         />
         <div
@@ -49,7 +50,7 @@ const ProjectFiveCard = () => {
         >
           <div>
             <h1 className="xs:text-xl sm:text-2xl font-semibold font-poppins sm:mb-1 md:mb-1 lg:mb-3">
-              PowerPulse Fitness
+              On The Go
             </h1>
             <p className="xs:text-sm sm:text-base font-lora semi-sm:mb-1 md:mb-0 lg:mb-2">
               Project was about precision and information.
@@ -74,7 +75,7 @@ const ProjectFiveCard = () => {
             {/* Modal content */}
             <img
               className="sm:px-4 xs:px-3 semi-sm:px-5 md:px-7 lg:px-[35px]"
-              src="https://i.ibb.co.com/NgrfLkDr/Screenshot-2025-02-25-at-12-23-30-Power-Pulse-Fitness-Home.png"
+              src="https://i.ibb.co.com/SX83V4Pp/screencapture-on-the-go-frontend-vercel-app-2025-03-17-13-02-06.png"
               alt=""
             />
             <div className="bg-white xs:px-3 sm:px-4 semi-sm:px-5 md:px-7 lg:px-[35px]">
@@ -84,7 +85,7 @@ const ProjectFiveCard = () => {
                     className="xs:text-xl sm:text-2xl semi-sm:text-3xl md:text-2xl lg:text-4xl font-poppins font-bold mb-5"
                     style={{ whiteSpace: "nowrap" }}
                   >
-                    PowerPulse Fitness
+                    On The Go
                   </h1>
                   <p className="font-lora text-base text-[#0f0715] font-medium">
                     They are was greater open above shelter lets itself under
@@ -93,7 +94,7 @@ const ProjectFiveCard = () => {
                   </p>
                 </div>
                 <div className="lg:flex-1">
-                  <div className="flex flex-col md:flex-row pr-20 sm:pr-28 semi-sm:pr-40 md:pr-0 md:items-center gap-5 lg:gap-40 mt-5 md:mt-10">
+                  <div className="flex flex-col md:flex-row pr-3 sm:pr-4 semi-sm:pr-14 md:pr-0 md:items-center gap-5 lg:gap-40 mt-5 md:mt-10">
                     <div style={{ whiteSpace: "nowrap" }}>
                       <h3 className="text-sm sm:text-base font-poppins">
                         Category
@@ -107,17 +108,17 @@ const ProjectFiveCard = () => {
                         Type
                       </h3>
                       <p className="text-sm sm:text-base font-lora font-medium">
-                        Fitness Equipment
+                        Travel Tips & Destination Guides
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col md:flex-row md:items-center gap-7 lg:gap-[175px] mt-5 md:mt-10">
+                  <div className="flex flex-col md:flex-row md:items-center gap-7 lg:gap-[168px] mt-5 md:mt-10">
                     <div>
                       <h3 className="text-sm sm:text-base font-poppins">
                         Start Date
                       </h3>
                       <p className="text-sm sm:text-base font-lora font-medium">
-                        August 28, 2024
+                        January 23, 2025
                       </p>
                     </div>
                     <div>
@@ -125,7 +126,7 @@ const ProjectFiveCard = () => {
                         End Date
                       </h3>
                       <p className="text-sm sm:text-base font-lora font-medium">
-                        November 03, 2024
+                        March 17, 2025
                       </p>
                     </div>
                   </div>
@@ -135,7 +136,7 @@ const ProjectFiveCard = () => {
                 className="flex flex-col md:flex-row md:items-center gap-5 md:gap-2 lg:gap-2 mt-10"
                 style={{ whiteSpace: "nowrap" }}
               >
-                <a href="https://power-pulse-fitness-equipment-and-accessories-frontend.vercel.app/">
+                <a href="https://on-the-go-frontend.vercel.app/">
                   <div className="buttonContainer">
                     <button className="flex items-center gap-5 md:gap-0 lg:gap-2 text-white buttoninner px-7 py-3 rounded-full ">
                       <span className="text-sm lg:text-base font-lora font-semibold">
@@ -146,7 +147,7 @@ const ProjectFiveCard = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/tonoy3125/PowerPulseFitness-Equipment-and-Accessories-Frontend"
+                  href="https://github.com/tonoy3125/On-The-Go-Frontend"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   <div className="buttonContainer">
@@ -159,7 +160,7 @@ const ProjectFiveCard = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/tonoy3125/PowerPulseFitness-Equipment-and-Accessories-Backend"
+                  href="https://github.com/tonoy3125/On-The-Go-Backend"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   <div className="buttonContainer">
@@ -186,4 +187,4 @@ const ProjectFiveCard = () => {
   );
 };
 
-export default ProjectFiveCard;
+export default ProjectSevenCard;
