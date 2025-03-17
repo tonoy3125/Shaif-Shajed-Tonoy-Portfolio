@@ -1,0 +1,204 @@
+/* Project arrow icon Transform for rotate */
+.rotate-icon {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* project info */
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 530px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* Project Info show */
+.project-info.show {
+  opacity: 1;
+}
+
+/* Project arrow icon rotate */
+.rotate-icon.rotate-full {
+  transform: rotate(360deg);
+}
+
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 11px);
+  /* max-height: 100vh; */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: scroll;
+  padding-top: 120px;
+  scrollbar-width: thin;
+  scrollbar-color: #8750f7 #2a1454;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #2a1454;
+  padding-top: 40px;
+  /* padding: 40px; */
+  max-width: 1100px;
+  height: 100vh;
+  width: 100%;
+}
+
+.modal-overlay::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-overlay::-webkit-scrollbar-thumb {
+  background-color: #8750f7;
+  border-radius: 4px;
+}
+
+.modal-overlay::-webkit-scrollbar-track {
+  background-color: #8750f7;
+}
+
+.modal-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 9999px;
+}
+
+.modal-close.rotate {
+  transition: transform 0.3s ease-in-out;
+  /* Add transition for smooth animation */
+}
+
+.modal-close.rotate:hover {
+  transform: rotate(180deg);
+  /* Rotate the cancel button 180 degrees on hover */
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+/* Button Css With Hover */
+.buttoninner {
+  background-image: linear-gradient(to right, #8750f7, #2a1454);
+  transition: background-position 2s ease;
+  background-size: 200% auto;
+}
+
+/* Button inner hover */
+.buttoninner:hover {
+  background-position: right center;
+}
+
+/* Button animantion */
+.buttonContainer:hover .arrowIcon {
+  transform: rotate(45deg);
+  transition: transform 0.5s ease;
+}
+
+/* Tablet 768px Responsive Styles project info */
+@media only screen and (max-width: 768px) {
+  .project-info {
+    width: auto;
+    padding: 10px;
+    bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/* Tablet 768px Responsive Styles for modal */
+@media only screen and (max-width: 768px) {
+  .modal-overlay {
+    width: 100%;
+    /* padding-top: 70px; */
+  }
+
+  .modal-content {
+    max-width: 650px;
+    padding-top: 40px;
+    width: 100%;
+  }
+}
+
+/* Mobile 425px Responsive Styles for modal */
+@media only screen and (max-width: 425px) {
+  .modal-overlay {
+    width: 100%;
+    /* padding-top: 70px; */
+  }
+
+  .modal-content {
+    max-width: 350px;
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .modal-close {
+    top: -30px;
+    right: -20px;
+  }
+}
+
+/* Mobile 375px Responsive Styles for modal */
+@media only screen and (max-width: 375px) {
+  .modal-overlay {
+    width: 100%;
+    /* padding-top: 550px; */
+  }
+
+  .modal-content {
+    max-width: 300px;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .modal-close {
+    top: -25px;
+    right: -20px;
+  }
+}
+
+/* Mobile 320px Responsive Styles for modal */
+@media only screen and (max-width: 320px) {
+  .modal-overlay {
+    width: 100%;
+    /* padding-top: 550px; */
+  }
+
+  .modal-content {
+    max-width: 250px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .modal-close {
+    top: -25px;
+    right: -20px;
+  }
+}

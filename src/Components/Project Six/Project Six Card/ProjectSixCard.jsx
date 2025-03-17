@@ -93,30 +93,38 @@ const ProjectSixCard = () => {
                   </p>
                 </div>
                 <div className="lg:flex-1">
-                  <div className="flex flex-col semi-sm:flex-row pr-[73px] sm:pr-[115px] semi-sm:pr-0 semi-sm:items-center gap-5 lg:gap-40 mt-10">
+                  <div className="flex flex-col md:flex-row pr-10 sm:pr-16 semi-sm:pr-[102px] md:pr-0 md:items-center gap-5 lg:gap-32 mt-5 md:mt-10">
                     <div style={{ whiteSpace: "nowrap" }}>
-                      <h3 className="text-base font-poppins">Category</h3>
-                      <p className="text-base font-lora font-medium">
+                      <h3 className="text-sm sm:text-base font-poppins">
+                        Category
+                      </h3>
+                      <p className="text-sm sm:text-base font-lora font-medium">
                         Full Stack Project
                       </p>
                     </div>
                     <div style={{ whiteSpace: "nowrap" }}>
-                      <h3 className="text-base font-poppins">Type</h3>
-                      <p className="text-base font-lora font-medium">
+                      <h3 className="text-sm sm:text-base font-poppins">
+                        Type
+                      </h3>
+                      <p className="text-sm sm:text-base font-lora font-medium">
                         Car Wash Booking System
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col semi-sm:flex-row md:items-center gap-7 lg:gap-[198px] mt-10">
+                  <div className="flex flex-col md:flex-row md:items-center gap-7 md:gap-[62px] lg:gap-[168px] mt-5 md:mt-10">
                     <div>
-                      <h3 className="text-base font-poppins">Start Date</h3>
-                      <p className="text-base font-lora font-medium">
+                      <h3 className="text-sm sm:text-base font-poppins">
+                        Start Date
+                      </h3>
+                      <p className="text-sm sm:text-base font-lora font-medium">
                         July 14, 2024
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-base font-poppins">End Date</h3>
-                      <p className="text-base font-lora font-medium">
+                      <h3 className="text-sm sm:text-base font-poppins">
+                        End Date
+                      </h3>
+                      <p className="text-sm sm:text-base font-lora font-medium">
                         February 16, 2025
                       </p>
                     </div>
